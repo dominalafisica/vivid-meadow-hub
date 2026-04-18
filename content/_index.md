@@ -7,19 +7,18 @@ sections:
   - block: hero
     content:
       title: "Domina la Física"
-      # Usamos etiquetas HTML para forzar el tamaño y el peso de la letra
       text: |
-        <h2 style="font-size: 2.2rem; line-height: 1.2; margin-bottom: 1.5rem; font-weight: 700;">
-          Providing free resources for a rigorous and comprehensive understanding of physics.
-        </h2>
-        <p style="font-size: 1.3rem; opacity: 0.9;">
-          Focusing on problem solving as well as formal mathematical derivations and demonstrations.
-        </p>
+        <div style="max-width: 1000px; margin: 0 auto;">
+          <h2 style="font-size: 2.8rem; line-height: 1.3; margin-bottom: 1.5rem; font-weight: 700; text-wrap: balance;">
+            Providing free resources for a rigorous and comprehensive understanding of physics.
+          </h2>
+          <p style="font-size: 1.5rem; opacity: 0.9; text-wrap: balance;">
+            Focusing on problem solving as well as formal mathematical derivations and demonstrations.
+          </p>
+        </div>
       cta:
         label: Physics Notes
         url: docs/
-      image:
-        filename: dominalafisica_logo.jpg
     design:
       background:
         color: '#1e3a8a'
@@ -37,11 +36,11 @@ sections:
           icon_pack: fas
         - name: "Problem Solving"
           description: "Step-by-step solutions to complex physical problems."
-          icon: pencil-alt
+          icon: pen
           icon_pack: fas
         - name: "Open Access"
           description: "High-quality resources for the global physics community."
-          icon: unlock-alt
+          icon: globe
           icon_pack: fas
     design:
       columns: '3'
