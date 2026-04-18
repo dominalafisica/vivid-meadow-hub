@@ -4,7 +4,7 @@ date: 2024-01-01
 type: landing
 
 sections:
-- block: hero
+  - block: hero
     content:
       title: Domina la Física
       text: |
