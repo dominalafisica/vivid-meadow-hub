@@ -8,7 +8,8 @@ sections:
     content:
       title: Domina la Física
       text: |
-        Providing free resources for a rigorous and comprehensive understanding of physics. 
+        ### Providing free resources for a rigorous and comprehensive understanding of physics.
+        
         Focusing on problem solving as well as formal mathematical derivations and demonstrations.
       cta:
         label: Physics Notes
@@ -17,7 +18,7 @@ sections:
         filename: dominalafisica_logo.jpg
     design:
       background:
-        color: '#1e3a8a'  # Color azul marino sólido
+        color: '#1e3a8a'
         text_color_light: true
       spacing:
         padding: ['100px', '0', '100px', '0']
@@ -34,7 +35,8 @@ sections:
           icon: pencil
         - name: Open Access
           description: High-quality resources for the global physics community.
-          icon: globe
+          icon: unlock
+          icon_pack: fas
     design:
       columns: '3'
 
