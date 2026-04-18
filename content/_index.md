@@ -6,11 +6,15 @@ type: landing
 sections:
   - block: hero
     content:
-      title: Domina la Física
+      title: "Domina la Física"
+      # Usamos etiquetas HTML para forzar el tamaño y el peso de la letra
       text: |
-        ### Providing free resources for a rigorous and comprehensive understanding of physics.
-        
-        Focusing on problem solving as well as formal mathematical derivations and demonstrations.
+        <h2 style="font-size: 2.2rem; line-height: 1.2; margin-bottom: 1.5rem; font-weight: 700;">
+          Providing free resources for a rigorous and comprehensive understanding of physics.
+        </h2>
+        <p style="font-size: 1.3rem; opacity: 0.9;">
+          Focusing on problem solving as well as formal mathematical derivations and demonstrations.
+        </p>
       cta:
         label: Physics Notes
         url: docs/
@@ -21,24 +25,28 @@ sections:
         color: '#1e3a8a'
         text_color_light: true
       spacing:
-        padding: ['100px', '0', '100px', '0']
+        padding: ['120px', '0', '120px', '0']
 
   - block: features
     content:
-      title: About the Project
+      title: "About the Project"
       items:
-        - name: Rigorous Derivations
-          description: Focus on formal mathematical proofs and analytical methods.
+        - name: "Rigorous Derivations"
+          description: "Focus on formal mathematical proofs and analytical methods."
           icon: book-open
-        - name: Problem Solving
-          description: Step-by-step solutions to complex physical problems.
-          icon: pencil
-        - name: Open Access
-          description: High-quality resources for the global physics community.
-          icon: unlock
+          icon_pack: fas
+        - name: "Problem Solving"
+          description: "Step-by-step solutions to complex physical problems."
+          icon: pencil-alt
+          icon_pack: fas
+        - name: "Open Access"
+          description: "High-quality resources for the global physics community."
+          icon: unlock-alt
           icon_pack: fas
     design:
       columns: '3'
+      spacing:
+        padding: ['80px', '0', '80px', '0']
 
   - block: markdown
     content:
