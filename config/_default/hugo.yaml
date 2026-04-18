@@ -5,7 +5,7 @@
 
 # Website name (set in params.yaml under hugoblox.branding.name)
 title: 'Domina la Física'
-baseURL: 'https://www.dominalafisica.com/' # Website URL
+baseurl: 'https://www.dominalafisica.com/' # Website URL
 
 ############################
 ## PAGE OPTIONS
