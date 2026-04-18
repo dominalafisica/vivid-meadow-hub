@@ -22,7 +22,7 @@ sections:
         gradient_to: '#000000'
         text_color_light: true
 
-  - block: about
+  - block: author
     content:
       username: admin
       title: About the Project
