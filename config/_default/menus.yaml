@@ -11,10 +11,7 @@ main:
   - name: YouTube
     url: https://www.youtube.com/@DominalaFisica
     weight: 30
-  - name: Instagram
-    url: https://www.instagram.com/dominalafisica
-    weight: 40
-
+    
 # Sidebar for the documentation pages
 sidebar:
   - identifier: social_header
