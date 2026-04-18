@@ -6,7 +6,8 @@ name:
   family: ''
   given: ''
   
-bio: The purpose of the project "Domina la Física" is to provide a high-quality free resource to anyone interested in understanding physics in a comprehensive manner.
+bio: |
+  The purpose of the project "Domina la Física" is to provide a high-quality free resource to anyone interested in understanding physics in a comprehensive manner.
 
 Topics: 
   - Classical Electrodynamics
