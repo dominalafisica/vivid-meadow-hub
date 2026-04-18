@@ -144,7 +144,7 @@ hugoblox:
       allow:
         - /
       disallow: []
-      note: "Guidance for AI crawlers - customize to match your public content."
+      note: ""
       contact: ""
 
   # ────────────────────────────────────────────────────────────────────────────
