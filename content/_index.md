@@ -8,7 +8,7 @@ sections:
     content:
       title: "Domina la Física"
       text: |
-        <h2 style="font-size: 2.4rem; font-weight: 400; line-height: 1.3; margin-bottom: 1rem;">
+        <h2 style="font-size: 2.4rem; font-weight: 400; line-height: 1.3; margin-top: 80px; margin-bottom: 1rem;">
           Providing free resources for a rigorous and comprehensive understanding of physics.
         </h2>
         <p style="font-size: 1.4rem; font-weight: 300; opacity: 0.9;">
@@ -22,7 +22,8 @@ sections:
         color: '#1e3a8a'
         text_color_light: true
       spacing:
-        padding: ['60px', '0', '100px', '0']
+        # El 20px inicial sube el título hacia la barra de navegación
+        padding: ['20px', '0', '100px', '0']
 
   - block: features
     content:
