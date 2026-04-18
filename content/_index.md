@@ -36,7 +36,7 @@ sections:
           icon: pencil
         - name: "Open Access"
           description: "High-quality resources for the global physics community."
-          icon: download
+          icon: users
     design:
       columns: '3'
       spacing:
