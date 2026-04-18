@@ -1,34 +1,32 @@
 # Navigation Links
-#   The weight parameter defines the order that the links will appear in.
+# The weight parameter defines the order that the links will appear in.
 
 main:
   - name: Home
     url: /
     weight: 10
-  - name: Documentation
+  - name: Physics Notes
     url: docs/
     weight: 20
-  - name: Blog
-    url: blog/
+  - name: YouTube
+    url: https://www.youtube.com/@DominalaFisica
     weight: 30
-  - name: Showcase
-    url: showcase/
+  - name: Instagram
+    url: https://www.instagram.com/dominalafisica
     weight: 40
-  - name: Community
-    url: community/
-    weight: 50
 
+# Sidebar for the documentation pages
 sidebar:
-  - identifier: more
-    name: Still need help?
+  - identifier: social_header
+    name: Connect
     params:
       type: separator
-    weight: 1
-  - identifier: community
-    name: "Community"
-    pageRef: "/community"
-    weight: 2
-  - identifier: hugoDocs
-    name: "Hugo Docs ↗"
-    url: "https://docs.hugoblox.com"
-    weight: 3
+    weight: 10
+  - identifier: youtube_sidebar
+    name: "YouTube Channel"
+    url: "https://www.youtube.com/@DominalaFisica"
+    weight: 20
+  - identifier: instagram_sidebar
+    name: "Instagram"
+    url: "https://www.instagram.com/dominalafisica"
+    weight: 30
