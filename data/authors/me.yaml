@@ -2,31 +2,20 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: 吳健雄
-  given: Shiung Wu
-  family: Chien
-  pronunciation: Chien Shiung Wu
-  pronouns: she/her
-status:
-  icon: "☕️"
-role: Professor of Artificial Intelligence
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
-affiliations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  display: Domina la Física
+  family: ''
+  given: ''
+  
+bio: The purpose of the project "Domina la Física" is to provide a high-quality free resource to anyone interested in understanding physics in a comprehensive manner.
+
+Topics: 
+  - Classical Electrodynamics
+  - Mathematical Methods in Physics
+  - Classical Mechanics
+  - Quantum Mechanics
+  
 links:
-  - icon: at-symbol
-    url: mailto:your-email@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/MakeOwnable
+ - icon: brands/youtube
+    url: https://www.youtube.com/@DominalaFisica
   - icon: brands/instagram
-    url: https://www.instagram.com/
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/cv
-    url: uploads/resume.pdf
-    label: Download my resume
-  - icon: rss
-    url: ./post/index.xml
-    label: Subscribe to my blog via RSS feed
+    url: https://www.instagram.com/dominalafisica
