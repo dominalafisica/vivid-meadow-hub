@@ -11,10 +11,10 @@ sections:
         Providing free resources for a rigorous and comprehensive understanding of physics. 
         Focusing on problem solving as well as mathematical derivations and demonstrations.
       cta:
-        label: Explore Physics Notes
+        label: Physics Notes
         url: docs/
       image:
-        filename: logo.png
+        filename: dominalafisica_logo.jpg
     design:
       background:
         gradient_angle: '45'
