@@ -1,6 +1,6 @@
 ---
 title: Home
-date: 2026-04-04
+date: 2024-01-01
 type: landing
 
 sections:
@@ -9,7 +9,7 @@ sections:
       title: Domina la Física
       text: |
         Providing free resources for a rigorous and comprehensive understanding of physics. 
-        Focusing on problem solving as well as mathematical derivations and demonstrations.
+        Focusing on problem solving as well as formal mathematical derivations and demonstrations.
       cta:
         label: Physics Notes
         url: docs/
@@ -37,4 +37,17 @@ sections:
           icon: globe
     design:
       columns: '3'
+
+  - block: markdown
+    content:
+      title: "Featured Physics Topics"
+      subtitle: "Explore our in-depth analytical guides."
+      text: |
+        We are currently developing comprehensive notes for advanced undergraduate and graduate physics.
+
+        - **{{% staticref "docs/mathematical-methods/" "newtab" %}}Mathematical Methods{{% /staticref %}}:** Analytical tools and complete derivations, including the Bessel differential equation.
+        - **Electrodynamics (Upcoming):** Boundary value problems and Maxwell's equations.
+    design:
+      spacing:
+        padding: ['2rem', '0', '2rem', '0']
 ---
