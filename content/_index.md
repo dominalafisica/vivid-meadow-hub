@@ -9,7 +9,7 @@ sections:
       title: Domina la Física
       text: |
         Providing free resources for a rigorous and comprehensive understanding of physics. 
-        Problem solving as well as mathematical derivations and demonstrations
+        Focusing on problem solving as well as mathematical derivations and demonstrations.
       cta:
         label: Explore Physics Notes
         url: docs/
@@ -22,11 +22,19 @@ sections:
         gradient_to: '#000000'
         text_color_light: true
 
-  - block: author
+  - block: features
     content:
-      username: admin
       title: About the Project
+      items:
+        - name: Rigorous Derivations
+          description: Focus on formal mathematical proofs and analytical methods.
+          icon: book-open
+        - name: Problem Solving
+          description: Step-by-step solutions to complex physical problems.
+          icon: pencil
+        - name: Open Access
+          description: High-quality resources for the global physics community.
+          icon: globe
     design:
-      spacing:
-        padding: ['2rem', '0', '2rem', '0']
+      columns: '3'
 ---
