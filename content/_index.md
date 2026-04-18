@@ -16,9 +16,11 @@ sections:
       image:
         filename: dominalafisica_logo.jpg
     design:
-      css_class: 'dark'  # <-- ESTO FUERZA EL MODO OSCURO EN EL BLOQUE
+      background:
+        color: '#1e3a8a'  # Color azul marino sólido
+        text_color_light: true
       spacing:
-        padding: ['5rem', '0', '5rem', '0'] # <-- AÑADE ESPACIO PARA QUE NO SE VEA APRETADO
+        padding: ['100px', '0', '100px', '0']
 
   - block: features
     content:
@@ -41,12 +43,12 @@ sections:
       title: "Featured Physics Topics"
       subtitle: "Explore our in-depth analytical guides."
       text: |
-        We are currently developing comprehensive notes for advanced undergraduate and graduate physics.
+        We are currently developing comprehensive notes for advanced undergraduate and graduate physics. New content is added weekly.
 
         - **[Mathematical Methods](/docs/mathematical-methods/):** Analytical tools and complete derivations, including the Bessel differential equation.
         - **Electrodynamics (Upcoming):** Boundary value problems and Maxwell's equations.
         - **Quantum Mechanics (Upcoming):** Advanced formalisms and many-body physics.
     design:
       spacing:
-        padding: ['2rem', '0', '2rem', '0']
+        padding: ['80px', '0', '80px', '0']
 ---
