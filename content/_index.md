@@ -8,12 +8,12 @@ sections:
     content:
       title: "Domina la Física"
       text: |
-        <div style="font-size: 3.5rem; font-weight: 400; line-height: 1.2; margin-bottom: 1.5rem; width: 100%; max-width: 100%;">
+        <h2 style="font-size: 2.4rem; font-weight: 400; line-height: 1.3; margin-bottom: 1rem;">
           Providing free resources for a rigorous and comprehensive understanding of physics.
-        </div>
-        <div style="font-size: 1.8rem; font-weight: 300; opacity: 0.9; width: 100%; max-width: 100%;">
+        </h2>
+        <p style="font-size: 1.4rem; font-weight: 300; opacity: 0.9;">
           Focusing on problem solving as well as formal mathematical derivations and demonstrations.
-        </div>
+        </p>
       cta:
         label: Physics Notes
         url: docs/
@@ -22,8 +22,7 @@ sections:
         color: '#1e3a8a'
         text_color_light: true
       spacing:
-        # El primer valor es el espacio de ARRIBA (lo bajamos de 120px a 40px)
-        padding: ['40px', '0', '120px', '0']
+        padding: ['60px', '0', '100px', '0']
 
   - block: features
     content:
@@ -32,15 +31,12 @@ sections:
         - name: "Rigorous Derivations"
           description: "Focus on formal mathematical proofs and analytical methods."
           icon: book-open
-          icon_pack: fas
         - name: "Problem Solving"
           description: "Step-by-step solutions to complex physical problems."
           icon: pencil
-          icon_pack: fas
         - name: "Open Access"
           description: "High-quality resources for the global physics community."
           icon: globe
-          icon_pack: fas
     design:
       columns: '3'
       spacing:
