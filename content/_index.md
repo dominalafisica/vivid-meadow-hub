@@ -4,7 +4,7 @@ date: 2024-01-01
 type: landing
 
 sections:
-  - block: hero
+- block: hero
     content:
       title: Domina la Física
       text: |
@@ -16,11 +16,9 @@ sections:
       image:
         filename: dominalafisica_logo.jpg
     design:
-      background:
-        gradient_angle: '45'
-        gradient_from: '#1e3a8a'
-        gradient_to: '#000000'
-        text_color_light: true
+      css_class: 'dark'  # <-- ESTO FUERZA EL MODO OSCURO EN EL BLOQUE
+      spacing:
+        padding: ['5rem', '0', '5rem', '0'] # <-- AÑADE ESPACIO PARA QUE NO SE VEA APRETADO
 
   - block: features
     content:
