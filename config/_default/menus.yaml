@@ -13,11 +13,9 @@ main:
     weight: 30
     
 footer:
-  - name: Support
+  - name: '<i class="fab fa-paypal" style="margin-right: 5px;"></i> Support'
     url: 'https://paypal.me/dominalafisica'
-    icon: paypal
-    icon_pack: fab
-    weight: 10   
+    weight: 1
 # Sidebar for the documentation pages
 sidebar:
   - identifier: social_header
