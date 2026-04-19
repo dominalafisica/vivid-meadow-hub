@@ -3,25 +3,26 @@ title: Video Lectures
 type: landing
 
 sections:
-  - block: features
+  - block: markdown
     content:
       title: "Select a Field of Study"
       subtitle: "Explore our comprehensive video derivations organized by topic."
-      items:
-        - name: "Mathematical Methods in Physics"
-          description: "Differential equations, special functions, and analytical tools."
-          url: '/videos/mathematical-methods/'
-        - name: "Classical Electrodynamics"
-          description: "Field and potential problems via vector integration and special functions, boundary-value problems with PDEs, multipole expansions, and Maxwell's equations."
-          url: '/videos/classical-electrodynamics/'
-        - name: "Classical Mechanics"
-          description: "Newtonian, Lagrangian, and Hamiltonian formulations, as well as central forces, and rigid body dynamics."
-          url: '/videos/classical-mechanics/'
-        - name: "Quantum Mechanics"
-          description: "Wave mechanics, formalism, and advanced quantum systems."
-          url: '/videos/quantum-mechanics/'
+      text: |
+        ### [Mathematical Methods in Physics](/videos/mathematical-methods/)
+        Differential equations, special functions, and analytical tools.
+        <br>
+
+        ### [Classical Electrodynamics](/videos/electrodynamics/)
+        Field and potential problems via vector integration and special functions, boundary-value problems with PDEs, multipole expansions, and Maxwell's equations.
+        <br>
+
+        ### [Quantum Mechanics](/videos/quantum-mechanics/)
+        Wave mechanics, formalism, and advanced quantum systems.
+        <br>
+
+        ### [Classical Mechanics](/videos/classical-mechanics/)
+        Newtonian, Lagrangian, and Hamiltonian formulations, as well as central forces and rigid body dynamics.
     design:
-      columns: '2'
       spacing:
         padding: ['80px', '0', '80px', '0']
 ---
