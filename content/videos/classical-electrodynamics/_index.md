@@ -5,8 +5,8 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: "Lecture Series"
-      subtitle: "Analytical derivations and problem-solving sessions."
+      title: "Classical Electrodynamics"
+      subtitle: "From electrostatics to Maxwell's equations and radiation."
       text: |
         [⬅ Back to Video Lectures](/videos/)
 
@@ -15,16 +15,16 @@ sections:
         <div class="expand-container">
         <div class="video-grid">
         <div class="video-wrapper">
-        {{< youtube "_aJzDUzmLt4" >}}
+        {{< youtube "XPGWHCRUaUg" >}}
         </div>
         <div>
-        <h3 style="margin-top: 0;">Legendre Differential Equation | Power Series</h3>
+        <h3 style="margin-top: 0;">Electric Potential & Field of a Charged Sphere | Spherical Harmonics</h3>
         <p><strong>Description:</strong><br>
-        <em>Step-by-step resolution of the Legendre differential equation using the power series method and the derivation of its recurrence relation.</em></p>
+        <em>Calculation of the electric potential and field for a charged spherical surface using the powerful method of spherical harmonics expansion.</em></p>
         <details>
         <summary><span style="color:#3b82f6; cursor:pointer; font-weight:bold;">Read full description...</span></summary>
         <div style="margin-top: 10px; font-style: italic; font-size: 0.95rem;">
-        We expand the series step-by-step, derive the general recurrence relation, and compute the initial coefficients to construct the general solution. Finally, we show that when $\lambda = n(n+1)$, one of the fundamental solutions elegantly reduces to the Legendre polynomials.
+        By this expansion is really simple to find the electrostic potential in all space, then by the gradient it's follows directly the electric field.
         </div>
         </details>
         </div>
@@ -32,7 +32,6 @@ sections:
         </div>
 
         <hr style="opacity: 0.1; margin: 4rem 0;">
-
 
     design:
       spacing:
