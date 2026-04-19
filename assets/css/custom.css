@@ -1,26 +1,27 @@
-/* --- 1. ROMPER LA CAJA ESTRECHA DE HUGO --- */
-.article-style {
-  max-width: 1200px !important; /* Le da permiso de expandirse casi a toda la pantalla */
-  margin: 0 auto;
+/* --- 1. RECUPERAR EL TAMAÑO DEL MENÚ (MIS DISCULPAS) --- */
+.navbar-brand { font-size: 2.2rem !important; font-weight: 800 !important; }
+.navbar-nav .nav-link { font-size: 1.3rem !important; margin: 0 1rem !important; }
+
+/* --- 2. ROMPER LAS PAREDES DEL CONTENEDOR DE HUGO --- */
+.expand-container {
+  width: 90vw; /* Toma el 90% del ancho real de tu pantalla */
+  max-width: 1400px; /* Límite para que no se vea deforme en pantallas de cine */
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%); /* Este es el truco que lo centra forzosamente */
 }
 
-/* --- 2. DISEÑO DE LA CUADRÍCULA --- */
+/* --- 3. DISEÑO DE LA CUADRÍCULA (VIDEO VS TEXTO) --- */
 .video-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr; /* El video toma el doble de espacio (66%) que el texto (33%) */
+  grid-template-columns: 2fr 1fr; /* Video doble de grande que el texto */
   gap: 3rem;
   align-items: start;
-  margin: 3rem 0;
-  width: 100%; /* Asegura que llene el nuevo espacio ancho */
+  margin: 2rem 0;
 }
 
-/* --- 3. FORZAR AL REPRODUCTOR A CRECER --- */
-.video-grid > div {
-  width: 100%;
-}
-
-.video-grid iframe, 
-.video-grid .video-wrapper {
+/* --- 4. REPRODUCTOR DE VIDEO --- */
+.video-grid iframe {
   width: 100% !important;
   aspect-ratio: 16 / 9;
   border-radius: 12px;
@@ -28,10 +29,13 @@
   border: none;
 }
 
-/* --- 4. AJUSTE PARA CELULARES --- */
+/* --- 5. AJUSTE PARA CELULARES --- */
 @media (max-width: 1000px) {
   .video-grid {
-    grid-template-columns: 1fr; /* Apila video y texto en pantallas pequeñas */
+    grid-template-columns: 1fr;
     gap: 1.5rem;
+  }
+  .expand-container {
+    width: 95vw; /* En celular ocupa casi todo el ancho */
   }
 }
