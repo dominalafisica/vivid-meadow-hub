@@ -11,7 +11,7 @@ sections:
         Differential equations, special functions, and analytical tools.
         <br>
 
-        ### [Classical Electrodynamics](/videos/electrodynamics/)
+        ### [Classical Electrodynamics](/videos/classical-electrodynamics/)
         Field and potential problems via vector integration and special functions, boundary-value problems with PDEs, multipole expansions, and Maxwell's equations.
         <br>
     
