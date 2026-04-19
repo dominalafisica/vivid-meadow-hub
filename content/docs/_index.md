@@ -5,7 +5,7 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: "Select a Field of Study"
+      title: "Note Topics"
       text: |
         ### [Mathematical Methods in Physics](/videos/mathematical-methods/)
         Differential equations, special functions, and analytical tools.
