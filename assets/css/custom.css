@@ -40,21 +40,33 @@
   }
 }
 
-/* 1. Ocultar el texto "Made with" volviendo el contenedor tamaño cero */
+/* 1. Eliminar la publicidad y el texto "Made with" */
 .powered-by {
     font-size: 0 !important;
     color: transparent !important;
 }
 
-/* 2. Rescatar tu copyright (span) y los iconos de licencia CC originales */
-.powered-by span,
-.powered-by .cc-icons {
+/* 2. Forzar que el texto del copyright y la licencia SE VEAN */
+.powered-by span, 
+.powered-by .cc-icons,
+.powered-by a:not([href*="hugoblox"]):not([href*="github"]) {
     font-size: 0.85rem !important;
     color: #a3a3a3 !important;
     visibility: visible !important;
+    display: inline-block !important;
 }
 
-/* 3. Eliminar los botones publicitarios de Hugo Blox permanentemente */
+/* 3. Asegurar que los iconos de la licencia (SVG) tengan tamaño y color */
+.powered-by .cc-icons svg {
+    width: 1.2rem !important;
+    height: 1.2rem !important;
+    fill: #a3a3a3 !important;
+    margin-left: 4px;
+    display: inline-block !important;
+    vertical-align: middle !important;
+}
+
+/* 4. Bloqueo total de los enlaces de la plantilla */
 .powered-by a[href*="hugoblox.com"], 
 .powered-by a[href*="github.com/HugoBlox"],
 a[href*="clone"] {
