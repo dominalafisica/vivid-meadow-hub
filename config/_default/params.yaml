@@ -83,12 +83,8 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   footer:
     style: minimal
-    links:
-      - icon: paypal
-        icon_pack: fab
-        name: Support
-        link: 'https://paypal.me/dominalafisica'
-
+    show_powered_by: true
+    
   copyright:
     notice: "© {year} Domina la Física · Licensed under {license}"
     license:
