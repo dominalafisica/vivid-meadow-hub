@@ -1,21 +1,22 @@
-/* 1. Darle más presencia al título "Domina la Física" en la barra */
-.navbar-brand {
+/* 1. Darle más presencia al título "Domina la Física" (El enlace que lleva al inicio) */
+header a[href="/"] {
   font-size: 1.8rem !important; 
   font-weight: 700 !important;
   letter-spacing: -0.5px !important;
 }
 
-/* 2. Hacer los enlaces del menú más grandes y separados */
-.navbar-nav .nav-link {
-  font-size: 1.15rem !important; /* Aumenta el tamaño de la letra */
-  font-weight: 500 !important;   /* Le da un poco más de grosor */
-  margin-left: 1rem !important;  /* Separación entre botones */
-  margin-right: 1rem !important; 
-  transition: all 0.3s ease !important; /* Hace que la animación al pasar el ratón sea suave */
+/* 2. Hacer los enlaces del menú más grandes y separados (Las listas del encabezado) */
+header ul li a {
+  font-size: 1.15rem !important; 
+  font-weight: 500 !important;   
+  margin-left: 0.5rem !important;  
+  margin-right: 0.5rem !important; 
+  transition: all 0.3s ease !important;
+  display: inline-block !important; /* Esto es vital para que el saltito hacia arriba funcione */
 }
 
 /* 3. El toque premium: Efecto al pasar el ratón (Hover) */
-.navbar-nav .nav-link:hover {
-  color: #1e3a8a !important; /* Se pinta de tu azul académico */
-  transform: translateY(-2px); /* Un ligerísimo salto hacia arriba, muy sutil */
+header ul li a:hover {
+  color: #1e3a8a !important; 
+  transform: translateY(-2px); 
 }
