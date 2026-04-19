@@ -39,8 +39,7 @@
     width: 95vw; /* En celular ocupa casi todo el ancho */
   }
 }
-
-/* 1. Destruir los enlaces publicitarios */
+/* 1. Destruir los enlaces publicitarios de la plantilla */
 .powered-by a[href*="hugoblox.com"], 
 .powered-by a[href*="github.com/HugoBlox"],
 a[href*="clone"] {
@@ -54,7 +53,7 @@ a[href*="clone"] {
     text-align: center;
 }
 
-/* 3. Rescatar la línea de la licencia dándole tamaño absoluto (rem) */
+/* 3. Rescatar la línea de la licencia dándole tamaño absoluto */
 .powered-by span,
 .powered-by .cc-icons {
     font-size: 0.85rem !important;
@@ -63,7 +62,7 @@ a[href*="clone"] {
     display: block;
 }
 
-/* 4. EL ARREGLO FINAL: Forzar el tamaño de los iconos CC para que no colapsen a 0px */
+/* 4. Forzar la estructura de los iconos CC para que se vean nítidos */
 .powered-by .cc-icons svg,
 .powered-by .cc-icons i {
     width: 1.2rem !important;
