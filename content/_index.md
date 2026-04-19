@@ -50,7 +50,7 @@ sections:
       text: |
         We are currently developing comprehensive notes for advanced undergraduate and graduate physics. New content is added weekly.
 
-        - **[Mathematical Methods](/docs/mathematical-methods/):** Analytical tools and complete derivations, including the Bessel differential equation.
+        - **Mathematical Methods:** Analytical tools and complete derivations, including the Bessel differential equation.
         - **Electrodynamics (Upcoming):** Boundary value problems and Maxwell's equations.
         - **Quantum Mechanics (Upcoming):** Advanced formalisms and many-body physics.
     design:
