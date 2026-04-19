@@ -62,7 +62,7 @@ sections:
         <div>
         <h3 style="margin-top: 0;">Lorentz Transformations from Maxwell's Equations | Complete Derivation</h3>
         <p><strong>Description:</strong><br>
-        <em>A comprehensive derivation of the Lorentz transformations starting from the fundamental principles of Maxwell's equations and Special Relativity.</em></p>
+        <em>A comprehensive derivation of the Lorentz transformations starting from the Maxwell's equations.</em></p>
         <details>
         <summary><span style="color:#3b82f6; cursor:pointer; font-weight:bold;">Read full description...</span></summary>
         <div style="margin-top: 10px; font-style: italic; font-size: 0.95rem;">
