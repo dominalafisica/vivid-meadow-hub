@@ -113,7 +113,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   copyright:
     # Copyright notice - supports {year}, {name}, {license} placeholders
-    notice: "© {year} {name}. This work is licensed under {license}"
+    notice: "© {year} {name} · Licensed under {license} · <i class='fab fa-paypal'></i> [Support](https://paypal.me/TuUsuario)"
     license:
       type: cc                          # cc | custom
       allow_derivatives: false
@@ -286,6 +286,3 @@ hugoblox:
     # Affiliate referral code for rewards program
     # Join affiliate program: https://hugoblox.com/affiliates
     affiliate_code: ""
-
-  footer:
-  copyright: '[Support Domina la Física](https://paypal.me/TuUsuario)'
