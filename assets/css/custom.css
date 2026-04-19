@@ -40,15 +40,24 @@
   }
 }
 
-/* Ocultar solo los links de la plantilla y el botón de Clone */
-footer a[href*="hugoblox.com"], 
-footer a[href*="github.com/HugoBlox"],
-footer a[href*="clone"] {
+/* Ocultar el texto de atribución y el botón de clonar */
+.powered-by a[href*="hugoblox.com"], 
+.powered-by a[href*="github.com/HugoBlox"],
+.powered-by .cc-icons + span + a,
+a[href*="clone"] {
     display: none !important;
 }
 
-/* Asegurar que el texto legal y los iconos de CC sean visibles */
+/* Eliminar el texto "Made with" que queda suelto */
 .powered-by {
-    font-size: 0.85rem;
-    line-height: 1.5;
+    font-size: 0; 
+}
+
+/* Devolver el tamaño al texto de la licencia y los iconos CC */
+.powered-by .copyright, 
+.powered-by notice,
+.powered-by .cc-icons {
+    font-size: 0.85rem !important;
+    visibility: visible !important;
+    display: block;
 }
