@@ -48,16 +48,19 @@ a[href*="clone"] {
     display: none !important;
 }
 
-/* Eliminar el texto "Made with" que queda suelto */
-.powered-by {
-    font-size: 0; 
+/* Ocultar enlaces de la plantilla y botón de clonar */
+.powered-by a[href*="hugoblox.com"], 
+.powered-by a[href*="github.com/HugoBlox"],
+a[href*="clone"] {
+    display: none !important;
 }
 
-/* Devolver el tamaño al texto de la licencia y los iconos CC */
-.powered-by .copyright, 
-.powered-by notice,
-.powered-by .cc-icons {
-    font-size: 0.85rem !important;
-    visibility: visible !important;
-    display: block;
+/* Hacer transparente el texto "Made with" sin borrar la caja */
+.powered-by {
+    color: transparent !important;
+}
+
+/* Devolverle el color gris y la visibilidad a tu licencia y los iconos CC */
+.powered-by * {
+    color: #a3a3a3 !important; 
 }
