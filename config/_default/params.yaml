@@ -78,14 +78,13 @@ hugoblox:
   footer:
     style: minimal
     text: |
-      text: |
       <div style="display: flex; justify-content: center; margin-bottom: 20px;">
         <a href="https://paypal.me/dominalafisica" target="_blank" rel="noopener" style="display: flex; align-items: center; gap: 12px; font-size: 1.1rem; color: #a3a3a3; text-decoration: none; transition: 0.2s;" onmouseover="this.style.color='#ffffff'" onmouseout="this.style.color='#a3a3a3'">
-          <span style="background: white; display: flex; align-items: center; justify-content: center; width: 34px; height: 34px; border-radius: 8px; padding: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.2);">
-            <svg viewBox="0 0 24 32" style="width: 22px; height: auto; shape-rendering: geometricPrecision;">
-              <path fill="#003087" d="M18.1 6.5C18.1 3.1 15.6 1 12 1H5.7c-.5 0-.8.4-.9.9L2.1 20.8c-.1.4.2.8.6.8h4.5c.4 0 .8-.3.9-.7l1-6.4c0-.4.4-.7.8-.7h1.6c4 0 7.3-2.6 7.3-7.3z"/>
-              <path fill="#009cde" d="M18.8 7.5c-.2 3.8-2.6 5.8-6.1 5.8H9.3c-.4 0-.7.3-.8.7l-1 6.4c-.1.4.2.8.6.8h4.1c.4 0 .8-.3.9-.7l1-6.4c.1-.4.4-.7.8-.7h.6c3.4 0 5.6-1.8 6.1-5.1.1-.4.1-.8.1-1.2 0-.2-.1-.4-.3-.4z"/>
-              <path fill="#012169" d="M12.7 13.3c-.2.4-.6.7-1 .7H9.3c-.4 0-.7.3-.8.7l-.4 2.8c.4-.4.8-.7 1.3-.7h1.6c.3 0 .6-.1.8-.3l.9-3.2z"/>
+          <span style="background: white; display: flex; align-items: center; justify-content: center; width: 34px; height: 34px; border-radius: 8px; padding: 2px; box-shadow: 0 2px 4px rgba(0,0,0,0.15);">
+            <svg viewBox="0 0 32 32" style="width: 24px; height: 24px; shape-rendering: geometricPrecision;">
+              <path fill="#003087" d="M23.3 9.4c0-4.6-3.4-7.4-8.3-7.4H6.8c-.7 0-1.2.5-1.3 1.2l-3.3 21c-.1.5.3 1 1 1h6.1c.6 0 1.1-.4 1.2-1l1.4-8.8c.1-.6.6-1.1 1.2-1.1h2.2c5.5 0 10-3.5 10-4.9z"/>
+              <path fill="#009cde" d="M24.2 10.7c-.3 5.3-3.6 8.1-8.5 8.1H12.8c-.5 0-1 .4-1.1 1l-1.4 8.8c-.1.5.3 1 1 1h5.8c.6 0 1.1-.4 1.2-1l1.4-8.8c.1-.6.6-1.1 1.2-1.1h.8c4.6 0 7.7-2.5 8.3-7.1.1-.6.1-1.1.1-1.7 0-.3-.1-.6-.4-.6-.2 0-.3.2-.5.5z"/>
+              <path fill="#012169" d="M18.1 12c-.2.4-.6.7-1.1.7h-2.2c-.5 0-1 .4-1.1 1l-.4 2.8c.4-.4.8-.7 1.3-.7h1.6c.3 0 .6-.1.8-.3l.9-3.2z"/>
             </svg>
           </span>
           Support the Project: dominalafisica
