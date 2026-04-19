@@ -1,3 +1,4 @@
+---
 title: "Mathematical Methods in Physics"
 type: landing
 
@@ -14,7 +15,7 @@ sections:
         <div class="expand-container">
         <div class="video-grid">
         <div class="video-wrapper">
-        <iframe src="https://www.youtube.com/embed/_aJzDUzmLt4" allowfullscreen></iframe>
+        <iframe src="[https://www.youtube.com/embed/_aJzDUzmLt4](https://www.youtube.com/embed/_aJzDUzmLt4)" allowfullscreen></iframe>
         </div>
         <div>
         <h3 style="margin-top: 0;">Legendre Differential Equation | Power Series</h3>
@@ -29,8 +30,9 @@ sections:
         </div>
         </div>
         </div>
-        
+
         <hr style="opacity: 0.1; margin: 4rem 0;">
+
     design:
       spacing:
         padding: ['40px', '0', '80px', '0']
