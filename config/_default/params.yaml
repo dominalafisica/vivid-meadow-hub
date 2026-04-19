@@ -111,21 +111,25 @@ hugoblox:
   # COPYRIGHT
   # Legal notices and licensing
   # ────────────────────────────────────────────────────────────────────────────
-
   footer:
+
   copyright:
-    notice: "© {year} {name} · Licensed under {license}"
+    notice: "© {year} Domina la Física · Licensed under {license}"
     license:
+      enable: true
       type: cc
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
-      
+
+  
   links:
     - icon: paypal
       icon_pack: fab
       name: Support
-      link: 'https://paypal.me/TuUsuario'
+      link: 'https://paypal.me/dominalafisica'
+
+  show_powered_by: false
 
   # ────────────────────────────────────────────────────────────────────────────
   # SEO
