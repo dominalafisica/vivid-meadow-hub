@@ -39,38 +39,24 @@
     width: 95vw; /* En celular ocupa casi todo el ancho */
   }
 }
-/* 1. Destruir los enlaces publicitarios de la plantilla */
-.powered-by a[href*="hugoblox.com"], 
-.powered-by a[href*="github.com/HugoBlox"],
-a[href*="clone"] {
-    display: none !important;
-}
 
-/* 2. Ocultar el texto "Made with" volviéndolo tamaño cero */
+/* 1. Ocultar el texto "Made with" volviendo el contenedor tamaño cero */
 .powered-by {
     font-size: 0 !important;
     color: transparent !important;
-    text-align: center;
 }
 
-/* 3. Rescatar la línea de la licencia dándole tamaño absoluto */
+/* 2. Rescatar tu copyright (span) y los iconos de licencia CC originales */
 .powered-by span,
 .powered-by .cc-icons {
     font-size: 0.85rem !important;
     color: #a3a3a3 !important;
     visibility: visible !important;
-    display: block;
 }
 
-/* 4. Forzar la estructura de los iconos CC para que se vean nítidos */
-.powered-by .cc-icons svg,
-.powered-by .cc-icons i {
-    width: 1.2rem !important;
-    height: 1.2rem !important;
-    font-size: 1.2rem !important;
-    fill: #a3a3a3 !important;
-    color: #a3a3a3 !important;
-    visibility: visible !important;
-    display: inline-block !important;
-    margin: 0 3px;
+/* 3. Eliminar los botones publicitarios de Hugo Blox permanentemente */
+.powered-by a[href*="hugoblox.com"], 
+.powered-by a[href*="github.com/HugoBlox"],
+a[href*="clone"] {
+    display: none !important;
 }
