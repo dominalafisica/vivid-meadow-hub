@@ -24,7 +24,7 @@ sections:
         <details>
         <summary><span style="color:#3b82f6; cursor:pointer; font-weight:bold;">Read full description...</span></summary>
         <div style="margin-top: 10px; font-style: italic; font-size: 0.95rem;">
-        By this expansion is really simple to find the electrostic potential in all space, then by the gradient it's follows directly the electric field.
+        Using this expansion it is remarkably simple to find the electrostatic potential in all space, then via the negative gradient it follows directly the electric field.
         </div>
         </details>
         </div>
