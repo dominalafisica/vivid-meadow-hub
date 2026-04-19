@@ -27,3 +27,20 @@ ul.navbar-nav li a:hover,
 nav ul li a:hover {
   color: #1e3a8a !important;
 }
+
+
+/* DISEÑO DE 2 COLUMNAS PARA VIDEOS */
+.video-layout {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr; /* El video ocupa el 60% y el texto el 40% */
+  gap: 2rem;
+  align-items: start;
+  margin-bottom: 3rem;
+}
+
+/* REGLA PARA CELULARES (Cambia a 1 sola columna) */
+@media (max-width: 800px) {
+  .video-layout {
+    grid-template-columns: 1fr;
+  }
+}
