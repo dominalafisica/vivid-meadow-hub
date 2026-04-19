@@ -1,56 +1,32 @@
-/* 1. EL TÍTULO "DOMINA LA FÍSICA" */
-.navbar-brand, 
-.navbar-brand a, 
-nav span.text-2xl, 
-nav span.font-bold,
-.header-title,
-nav a[href="/"] {
-  font-size: 2.2rem !important;
-  font-weight: 800 !important;
-  letter-spacing: -0.5px !important;
-}
+/* --- CONFIGURACIÓN DE NAVEGACIÓN (Lo que ya teníamos) --- */
+.navbar-brand { font-size: 2.2rem !important; font-weight: 800 !important; }
+.navbar-nav .nav-link { font-size: 1.3rem !important; margin: 0 1rem !important; }
 
-/* 2. LOS ENLACES (Home, Physics Notes, YouTube) */
-.navbar-nav .nav-link, 
-ul.navbar-nav li a, 
-nav ul li a,
-.nav-item a {
-  font-size: 1.3rem !important; 
-  font-weight: 500 !important;
-  margin-left: 1rem !important;
-  margin-right: 1rem !important;
-}
-
-/* 3. COLOR AL PASAR EL RATÓN */
-.navbar-nav .nav-link:hover, 
-ul.navbar-nav li a:hover, 
-nav ul li a:hover {
-  color: #1e3a8a !important;
-}
-
-
-/* DISEÑO DE 2 COLUMNAS PARA VIDEOS */
+/* --- DISEÑO DE VIDEOS EN DOS COLUMNAS --- */
 .video-layout {
   display: grid;
-  grid-template-columns: 1.5fr 1fr; /* El video ocupa el 60% y el texto el 40% */
-  gap: 2rem;
+  grid-template-columns: 1.6fr 1fr; /* 60% Video, 40% Texto */
+  gap: 2.5rem;
   align-items: start;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 
-/* REGLA PARA CELULARES (Cambia a 1 sola columna) */
-@media (max-width: 800px) {
-  .video-layout {
-    grid-template-columns: 1fr;
-  }
+.video-container {
+  width: 100%;
 }
 
-
-/* FORZAR AL VIDEO A LLENAR SU COLUMNA CON FORMATO 16:9 */
-.video-layout iframe {
-  width: 100% !important;
-  height: auto !important;
+.video-container iframe {
+  width: 100%;
   aspect-ratio: 16 / 9;
-  border-radius: 8px; /* Esto redondea las esquinas ligeramente para un toque moderno */
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* Sombra sutil para despegarlo del fondo */
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3); /* Sombra elegante */
+}
+
+/* --- AJUSTE PARA CELULARES --- */
+@media (max-width: 900px) {
+  .video-layout {
+    grid-template-columns: 1fr; /* Se apila en una sola columna */
+    gap: 1.5rem;
+  }
 }
