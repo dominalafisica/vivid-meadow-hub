@@ -14,12 +14,12 @@ sections:
         - name: "Classical Electrodynamics"
           description: "Field and potential problems via vector integration and special functions, boundary-value problems with PDEs, multipole expansions, and Maxwell's equations."
           url: 'videos/electrodynamics/'
-        - name: "Quantum Mechanics"
-          description: "Wave mechanics, formalism, and advanced quantum systems."
-          url: 'videos/quantum-mechanics/'
         - name: "Classical Mechanics"
           description: "Newtonian, Lagrangian, and Hamiltonian formulations, as well as central forces, and rigid body dynamics."
           url: 'videos/classical-mechanics/'
+        - name: "Quantum Mechanics"
+          description: "Wave mechanics, formalism, and advanced quantum systems."
+          url: 'videos/quantum-mechanics/'
     design:
       columns: '2'
       spacing:
