@@ -111,14 +111,21 @@ hugoblox:
   # COPYRIGHT
   # Legal notices and licensing
   # ────────────────────────────────────────────────────────────────────────────
+
+  footer:
   copyright:
-    # Copyright notice - supports {year}, {name}, {license} placeholders
-    notice: "© {year} {name} · Licensed under {license} · <i class='fab fa-paypal'></i> [Support](https://paypal.me/TuUsuario)"
+    notice: "© {year} {name} · Licensed under {license}"
     license:
-      type: cc                          # cc | custom
+      type: cc
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
+      
+  links:
+    - icon: paypal
+      icon_pack: fab
+      name: Support
+      link: 'https://paypal.me/TuUsuario'
 
   # ────────────────────────────────────────────────────────────────────────────
   # SEO
