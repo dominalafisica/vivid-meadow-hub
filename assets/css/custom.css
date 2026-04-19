@@ -40,6 +40,15 @@
   }
 }
 
-.powered-by, a[href*="hugoblox.com"], a[href*="github.com/HugoBlox"] { 
-    display: none !important; 
+/* Ocultar solo los links de la plantilla y el botón de Clone */
+footer a[href*="hugoblox.com"], 
+footer a[href*="github.com/HugoBlox"],
+footer a[href*="clone"] {
+    display: none !important;
+}
+
+/* Asegurar que el texto legal y los iconos de CC sean visibles */
+.powered-by {
+    font-size: 0.85rem;
+    line-height: 1.5;
 }
