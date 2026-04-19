@@ -288,9 +288,7 @@ hugoblox:
     affiliate_code: ""
 
     footer:
-  copyright: '© {year} Diego Valenzuela Castro'
-  
-  # Añadimos el enlace aquí
+ 
   links:
     - icon: paypal
       icon_pack: fab
