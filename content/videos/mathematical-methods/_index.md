@@ -5,7 +5,7 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: "Mathematical Methods"
+      title: "Mathematical Methods in Physics"
       subtitle: "Differential equations, special functions, and analytical tools."
       text: |
         [⬅ Back to Video Lectures](/videos/)
