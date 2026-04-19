@@ -53,8 +53,28 @@ sections:
         </div>
 
         <hr style="opacity: 0.1; margin: 4rem 0;">
-        
 
+        <div class="expand-container">
+        <div class="video-grid">
+        <div class="video-wrapper">
+        {{< youtube "Sf-m8_GnXfs" >}}
+        </div>
+        <div>
+        <h3 style="margin-top: 0;">Lorentz Transformations from Maxwell's Equations | Complete Derivation</h3>
+        <p><strong>Description:</strong><br>
+        <em>A comprehensive derivation of the Lorentz transformations starting from the fundamental principles of Maxwell's equations and Special Relativity.</em></p>
+        <details>
+        <summary><span style="color:#3b82f6; cursor:pointer; font-weight:bold;">Read full description...</span></summary>
+        <div style="margin-top: 10px; font-style: italic; font-size: 0.95rem;">
+        In this session, we explore the profound relationship between Electromagnetism and the theory of Special Relativity. By analyzing the invariance of Maxwell's equations under coordinate transformations, we derive the Lorentz factor ($\gamma$) and the transformations for space and time. The lecture covers inertial systems, the application of the chain rule for primed coordinates, and the formal connection between Galilean and Lorentz physics. 
+        </div>
+        </details>
+        </div>
+        </div>
+        </div>
+
+        <hr style="opacity: 0.1; margin: 4rem 0;">
+        
     design:
       spacing:
         padding: ['40px', '0', '80px', '0']
