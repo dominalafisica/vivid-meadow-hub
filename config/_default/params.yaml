@@ -86,7 +86,7 @@ hugoblox:
     show_powered_by: false
     
   copyright:
-    notice: "© {year} Domina la Física · Licensed under {license}"
+    notice: "© {year} Domina la Física · Licensed under {license} · <i class='fab fa-paypal'></i> [Support](https://paypal.me/dominalafisica)"
     license:
       enable: true
       type: cc
