@@ -8,21 +8,17 @@ sections:
       title: "Select a Field of Study"
       subtitle: "Explore our comprehensive video derivations organized by topic."
       items:
-        - name: "Mathematical Methods"
-          description: "Differential equations, complex analysis, and analytical tools."
-          icon: calculator
+        - name: "Mathematical Methods in Physics"
+          description: "Differential equations, special functions, and analytical tools."
           url: 'videos/mathematical-methods/'
-        - name: "Electrodynamics"
-          description: "Boundary value problems, multipole expansions, and Maxwell's equations."
-          icon: bolt
+        - name: "Classical Electrodynamics"
+          description: "Fields and Potential problems by vectorial integration and special functions, boundary value problems with PDE, multipole expansions, and Maxwell's equations."
           url: 'videos/electrodynamics/'
         - name: "Quantum Mechanics"
           description: "Wave mechanics, formalism, and advanced quantum systems."
-          icon: atom
           url: 'videos/quantum-mechanics/'
         - name: "Classical Mechanics"
-          description: "Lagrangian and Hamiltonian formalisms, central forces, and rigid bodies."
-          icon: compact-disc
+          description: "Newtonian, Lagrangian and Hamiltonian formulations, central forces, and rigid bodies."
           url: 'videos/classical-mechanics/'
     design:
       columns: '2'
