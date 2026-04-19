@@ -39,3 +39,7 @@
     width: 95vw; /* En celular ocupa casi todo el ancho */
   }
 }
+
+.powered-by, a[href*="hugoblox.com"], a[href*="github.com/HugoBlox"] { 
+    display: none !important; 
+}
