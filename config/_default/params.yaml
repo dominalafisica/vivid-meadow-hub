@@ -9,19 +9,14 @@ hugoblox:
 
   # ────────────────────────────────────────────────────────────────────────────
   # IDENTITY
-  # Site-level branding (for people/profiles, use the author system in content/authors/)
+  # Site-level branding
   # ────────────────────────────────────────────────────────────────────────────
   identity:
-    # Site name - shown in navbar, footer, copyright, and browser title by default
     name: "Domina la Física"
-    # Legal entity for copyright notices (defaults to name if not set)
     organization: "Domina la Física"
-    # Schema.org type for structured data
-    type: person                        # person | organization | local_business
-    # Short tagline displayed on your site
+    type: person
     tagline: ""
-    # Site meta description for search engines and social sharing
-    description: 'The purpose of the project "Domina la Física" is to provide a high-quality free resource for anyone interested in understanding physics in a comprehensive manner.'    # Social accounts (used for meta tags like Twitter Cards)
+    description: 'The purpose of the project "Domina la Física" is to provide a high-quality free resource for anyone interested in understanding physics in a comprehensive manner.'
     social:
       twitter: ""
 
@@ -30,19 +25,14 @@ hugoblox:
   # Color and visual design system
   # ────────────────────────────────────────────────────────────────────────────
   theme:
-    # Mode: 'light', 'dark', or 'system' (follows OS preference)
     mode: dark
-    # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
     pack: "default"
-    # Optional: Override theme pack colors
     colors:
-      primary: ""                       # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
+      primary: ""
       secondary: ""
-      neutral: ""                       # Affects gray utilities (text-gray-*, bg-gray-*)
-    # Optional: Mode-specific color overrides
+      neutral: ""
     colors_light: {}
     colors_dark: {}
-    # Optional: Semantic surface color overrides
     surfaces:
       background: ""
       foreground: ""
@@ -58,7 +48,6 @@ hugoblox:
   # Font and text sizing
   # ────────────────────────────────────────────────────────────────────────────
   typography:
-    # Theme pack: name from data/fonts/
     pack: "modern"
 
   # ────────────────────────────────────────────────────────────────────────────
@@ -66,12 +55,9 @@ hugoblox:
   # Spacing and shape tokens
   # ────────────────────────────────────────────────────────────────────────────
   layout:
-    # Border radius: 'none', 'sm', 'md', 'lg', or 'full'
     radius: "md"
-    # Spacing density: 'compact', 'comfortable', or 'spacious'
     spacing: "comfortable"
-    # Avatar shape in author profiles
-    avatar_shape: circle                # circle | square | rounded
+    avatar_shape: circle
 
   # ────────────────────────────────────────────────────────────────────────────
   # HEADER
@@ -79,18 +65,13 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   header:
     enable: true
-    # Header style variant
-    style: navbar                       # navbar | navbar-simple | minimal
-    # Stick to top on scroll
+    style: navbar
     sticky: true
-    # Menu alignment
-    align: center                       # left | center | right
-    # Feature toggles
+    align: center
     search: true
     theme_toggle: true
     theme_picker: false
     language_switcher: true
-    # Call-to-action button
     cta:
       enable: false
       text: ""
@@ -100,34 +81,29 @@ hugoblox:
   # FOOTER
   # Site footer
   # ────────────────────────────────────────────────────────────────────────────
-  # --- COPIAR DESDE AQUÍ ---
+  footer:
+    style: minimal
+    links:
+      - icon: paypal
+        icon_pack: fab
+        name: Support
+        link: 'https://paypal.me/dominalafisica'
 
-footer:
-  style: minimal
-  show_powered_by: false
-  links:
-    - icon: paypal
-      icon_pack: fab
-      name: Support
-      link: 'https://paypal.me/dominalafisica'
-
-copyright:
-  notice: "© {year} Domina la Física · Licensed under {license}"
-  license:
-    enable: true
-    type: cc
-    allow_derivatives: false
-    share_alike: true
-    allow_commercial: false
+  copyright:
+    notice: "© {year} Domina la Física · Licensed under {license}"
+    license:
+      enable: true
+      type: cc
+      allow_derivatives: false
+      share_alike: true
+      allow_commercial: false
 
   # ────────────────────────────────────────────────────────────────────────────
   # SEO
-  # Search engine optimization - overrides and technical settings
+  # Search engine optimization
   # ────────────────────────────────────────────────────────────────────────────
   seo:
-    # Browser tab title override (defaults to identity.name if not set)
     title: ""
-    # For local_business identity type only
     location:
       address:
         street: ""
@@ -139,7 +115,6 @@ copyright:
         latitude: null
         longitude: null
       phone: ""
-    # AI/LLM crawler guidance (llms.txt)
     ai:
       allow:
         - /
@@ -152,18 +127,14 @@ copyright:
   # Content rendering and behavior
   # ────────────────────────────────────────────────────────────────────────────
   content:
-    # Math rendering
     math:
       enable: true
-    # Table of contents
     toc:
       enable: true
-    # Reading time estimates
     reading_time:
       enable: true
-    # Academic citations
     citations:
-      style: apa                        # apa | mla | chicago | ieee
+      style: apa
 
   # ────────────────────────────────────────────────────────────────────────────
   # SEARCH
@@ -171,9 +142,7 @@ copyright:
   # ────────────────────────────────────────────────────────────────────────────
   search:
     enable: true
-    # Trending/suggested search terms
     suggestions: []
-    # Quick action shortcuts in search modal
     quick_actions: []
 
   # ────────────────────────────────────────────────────────────────────────────
@@ -182,7 +151,7 @@ copyright:
   # ────────────────────────────────────────────────────────────────────────────
   comments:
     enable: false
-    provider: ""                        # giscus | disqus
+    provider: ""
     giscus:
       repo: ""
       repo_id: ""
@@ -197,9 +166,9 @@ copyright:
   # ────────────────────────────────────────────────────────────────────────────
   analytics:
     google:
-      measurement_id: ""                # Google Analytics 4: G-XXXXXXXXXX
+      measurement_id: ""
     google_tag_manager:
-      container_id: ""                  # GTM-XXXXXXX
+      container_id: ""
     plausible:
       domain: ""
     fathom:
@@ -229,7 +198,7 @@ copyright:
   # ────────────────────────────────────────────────────────────────────────────
   repository:
     enable: false
-    url: ""                             # e.g., https://github.com/username/repo
+    url: ""
     branch: main
     content_dir: content
 
@@ -238,19 +207,19 @@ copyright:
   # Regional formatting preferences
   # ────────────────────────────────────────────────────────────────────────────
   locale:
-    date_format: "Jan 2, 2006"          # Go time format
+    date_format: "Jan 2, 2006"
     time_format: "3:04 PM"
     address_format: en-us
 
   # ────────────────────────────────────────────────────────────────────────────
   # SECURITY
-  # Security headers and policies (requires Netlify integration)
+  # Security headers and policies
   # ────────────────────────────────────────────────────────────────────────────
   security:
     csp:
       policy: ""
       report_only: false
-    frame_options: allow                 # deny | sameorigin | allow - allow enables iframe embedding
+    frame_options: allow
     permissions_policy: ""
 
   # ────────────────────────────────────────────────────────────────────────────
@@ -263,26 +232,19 @@ copyright:
 
   # ────────────────────────────────────────────────────────────────────────────
   # DEBUG
-  # Development and debugging (hidden in production)
+  # Development and debugging
   # ────────────────────────────────────────────────────────────────────────────
   debug:
     enable: false
     hud:
-      position: bottom-left             # top-left | top-right | bottom-left | bottom-right
+      position: bottom-left
       opacity: 1.0
     export_logs: true
 
   # ────────────────────────────────────────────────────────────────────────────
   # PREMIUM
-  # Premium features and creator program (affiliates)
+  # Premium features and creator program
   # ────────────────────────────────────────────────────────────────────────────
   pro:
-    # Hide "Powered by HugoBlox" attribution
-    # Requires: HugoBlox Premium to support HugoBlox via alternative means
-    # Note: Even with Premium, you can keep this false to support open source!
-    # Get Premium: https://hugoblox.com/premium
-    hide_attribution: false
-    
-    # Affiliate referral code for rewards program
-    # Join affiliate program: https://hugoblox.com/affiliates
+    hide_attribution: true
     affiliate_code: ""
