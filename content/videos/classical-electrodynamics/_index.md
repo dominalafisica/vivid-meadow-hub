@@ -6,7 +6,7 @@ sections:
   - block: markdown
     content:
       title: "Classical Electrodynamics"
-      subtitle: "From electrostatics to Maxwell's equations and radiation."
+      subtitle: ""
       text: |
         [⬅ Back to Video Lectures](/videos/)
 
