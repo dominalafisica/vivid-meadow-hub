@@ -40,23 +40,22 @@
   }
 }
 
-/* 1. Eliminar la publicidad y el texto "Made with" */
+/* 1. Ocultar la publicidad nativa */
 .powered-by {
     font-size: 0 !important;
     color: transparent !important;
 }
 
-/* 2. Forzar que el texto del copyright y la licencia SE VEAN */
+/* 2. Rescatar la línea de Copyright y la marca personal */
 .powered-by span, 
-.powered-by .cc-icons,
-.powered-by a:not([href*="hugoblox"]):not([href*="github"]) {
+.powered-by .cc-icons {
     font-size: 0.85rem !important;
     color: #a3a3a3 !important;
     visibility: visible !important;
     display: inline-block !important;
 }
 
-/* 3. Asegurar que los iconos de la licencia (SVG) tengan tamaño y color */
+/* 3. Ajustar los iconos SVG de la licencia para que sean nítidos */
 .powered-by .cc-icons svg {
     width: 1.2rem !important;
     height: 1.2rem !important;
@@ -66,7 +65,7 @@
     vertical-align: middle !important;
 }
 
-/* 4. Bloqueo total de los enlaces de la plantilla */
+/* 4. Bloqueo de enlaces de la plantilla */
 .powered-by a[href*="hugoblox.com"], 
 .powered-by a[href*="github.com/HugoBlox"],
 a[href*="clone"] {
