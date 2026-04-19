@@ -44,3 +44,13 @@ nav ul li a:hover {
     grid-template-columns: 1fr;
   }
 }
+
+
+/* FORZAR AL VIDEO A LLENAR SU COLUMNA CON FORMATO 16:9 */
+.video-layout iframe {
+  width: 100% !important;
+  height: auto !important;
+  aspect-ratio: 16 / 9;
+  border-radius: 8px; /* Esto redondea las esquinas ligeramente para un toque moderno */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* Sombra sutil para despegarlo del fondo */
+}
