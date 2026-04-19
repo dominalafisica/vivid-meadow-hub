@@ -12,11 +12,27 @@ sections:
 
         ---
 
-        ### Field and Potential Problems: Vector Integration
-        {{< youtube ID_DE_TU_VIDEO >}}
-        
-        **Description:**
-        *Insert here the translated description from your YouTube channel. This derivation focuses on the analytical approach to boundary-value problems using vector calculus and special functions.*
+        <div class="expand-container">
+        <div class="video-grid">
+        <div class="video-wrapper">
+        {{< youtube "_aJzDUzmLt4" >}}
+        </div>
+        <div>
+        <h3 style="margin-top: 0;">Legendre Differential Equation | Power Series</h3>
+        <p><strong>Description:</strong><br>
+        <em>Step-by-step resolution of the Legendre differential equation using the power series method and the derivation of its recurrence relation.</em></p>
+        <details>
+        <summary><span style="color:#3b82f6; cursor:pointer; font-weight:bold;">Read full description...</span></summary>
+        <div style="margin-top: 10px; font-style: italic; font-size: 0.95rem;">
+        We expand the series step-by-step, derive the general recurrence relation, and compute the initial coefficients to construct the general solution. Finally, we show that when $\lambda = n(n+1)$, one of the fundamental solutions elegantly reduces to the Legendre polynomials.
+        </div>
+        </details>
+        </div>
+        </div>
+        </div>
+
+        <hr style="opacity: 0.1; margin: 4rem 0;">
+
 
     design:
       spacing:
