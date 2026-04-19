@@ -100,36 +100,27 @@ hugoblox:
   # FOOTER
   # Site footer
   # ────────────────────────────────────────────────────────────────────────────
-  footer:
-    # Footer style variant
-    style: minimal                      # minimal | columns | centered
-    language_switcher: true
-    # Custom footer text (HTML supported)
-    text: ""
+  # --- COPIAR DESDE AQUÍ ---
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # COPYRIGHT
-  # Legal notices and licensing
-  # ────────────────────────────────────────────────────────────────────────────
+footer:
+  style: minimal
+  show_powered_by: false
+  links:
+    - icon: paypal
+      icon_pack: fab
+      name: Support
+      link: 'https://paypal.me/dominalafisica'
 
-    copyright:
-      notice: "© {year} Domina la Física · Licensed under {license}"
-      license:
-        enable: true
-        type: cc
-        allow_derivatives: false
-        share_alike: true
-        allow_commercial: false
+copyright:
+  notice: "© {year} Domina la Física · Licensed under {license}"
+  license:
+    enable: true
+    type: cc
+    allow_derivatives: false
+    share_alike: true
+    allow_commercial: false
 
-  
-    links:
-      - icon: paypal
-        icon_pack: fab
-        name: Support
-        link: 'https://paypal.me/dominalafisica'
-
-    show_powered_by: false
-
+# --- HASTA AQUÍ ---
   # ────────────────────────────────────────────────────────────────────────────
   # SEO
   # Search engine optimization - overrides and technical settings
