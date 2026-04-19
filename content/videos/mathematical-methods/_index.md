@@ -12,6 +12,7 @@ sections:
 
         ---
 
+        <div class="expand-container">
         <div class="video-grid">
         <div>
         {{< youtube dQw4w9WgXcQ >}}
@@ -26,6 +27,7 @@ sections:
         In this comprehensive lecture, we solve the Bessel equation step-by-step. We discuss the convergence of the power series and the physical implications of the Neumann function for integer orders.
         </div>
         </details>
+        </div>
         </div>
         </div>
 
