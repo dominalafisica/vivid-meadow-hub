@@ -39,31 +39,29 @@
     width: 95vw; /* En celular ocupa casi todo el ancho */
   }
 }
-/* 1. Ocultar enlaces de la plantilla y botón de clonar */
+
 .powered-by a[href*="hugoblox.com"], 
 .powered-by a[href*="github.com/HugoBlox"],
 a[href*="clone"] {
     display: none !important;
 }
 
-/* 2. Volver invisible el texto suelto "Made with" y el punto final */
 .powered-by {
     font-size: 0 !important;
     color: transparent !important;
+    text-align: center;
 }
 
-/* 3. Rescatar la visibilidad de los iconos CC y el texto legal */
+.powered-by span,
 .powered-by .cc-icons,
-.powered-by .cc-icons i,
-.powered-by span {
+.powered-by .cc-icons i {
     font-size: 0.85rem !important;
-    color: #a3a3a3 !important; /* Gris suave profesional */
+    color: #a3a3a3 !important; /* Gris profesional */
     visibility: visible !important;
     display: inline-block;
 }
 
-/* 4. Asegurar que los iconos de la licencia tengan espacio */
 .powered-by .cc-icons {
-    margin-bottom: 8px;
-    display: block; /* Los pone en su propia línea si es necesario */
+    margin-top: 5px;
+    display: block; 
 }
