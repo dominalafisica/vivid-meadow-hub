@@ -8,8 +8,8 @@ main:
   - name: Notes
     url: docs/
     weight: 20
-  - name: YouTube
-    url: https://www.youtube.com/@DominalaFisica
+  - name: Videos
+    url: /videos/
     weight: 30
     
 # Sidebar for the documentation pages
