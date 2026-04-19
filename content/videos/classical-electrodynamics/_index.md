@@ -36,7 +36,7 @@ sections:
         <div class="expand-container">
         <div class="video-grid">
         <div class="video-wrapper">
-        {{< youtube "aTIrFcpTb5Q" >}}
+        {{< youtube "aTlrFcpTb5Q" >}}
         </div>
         <div>
         <h3 style="margin-top: 0;">Magnetic Field of a Circular Loop | Biot-Savart Law</h3>
