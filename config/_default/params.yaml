@@ -83,7 +83,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   footer:
     style: minimal
-    show_powered_by: true
+    show_powered_by: false
     
   copyright:
     notice: "© {year} Domina la Física · Licensed under {license}"
