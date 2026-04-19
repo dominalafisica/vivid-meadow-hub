@@ -15,7 +15,7 @@ sections:
         <div class="expand-container">
         <div class="video-grid">
         <div class="video-wrapper">
-        <iframe src="[https://www.youtube.com/embed/_aJzDUzmLt4](https://www.youtube.com/embed/_aJzDUzmLt4)" allowfullscreen></iframe>
+        {{< youtube "_aJzDUzmLt4" >}}
         </div>
         <div>
         <h3 style="margin-top: 0;">Legendre Differential Equation | Power Series</h3>
