@@ -81,10 +81,15 @@ hugoblox:
   # FOOTER
   # Site footer
   # ────────────────────────────────────────────────────────────────────────────
+  # ────────────────────────────────────────────────────────────────────────────
+  # FOOTER
+  # ────────────────────────────────────────────────────────────────────────────
   footer:
     style: minimal
-    show_powered_by: false
-    
+    show_powered: false
+    # Aquí inyectamos el botón con HTML puro. Estará centrado y arriba de la licencia.
+    text: "<a href='https://paypal.me/dominalafisica' target='_blank' rel='noopener' style='font-size: 1.1rem; opacity: 0.8; transition: opacity 0.2s;' onmouseover='this.style.opacity=1' onmouseout='this.style.opacity=0.8'><i class='fab fa-paypal' style='margin-right: 5px;'></i> Support</a>"
+
   copyright:
     notice: "© {year} Domina la Física · Licensed under {license}"
     license:
