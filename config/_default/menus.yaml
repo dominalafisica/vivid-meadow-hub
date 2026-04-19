@@ -12,6 +12,12 @@ main:
     url: /videos/
     weight: 30
     
+footer:
+  - name: Support
+    url: 'https://paypal.me/dominalafisica'
+    icon: paypal
+    icon_pack: fab
+    weight: 10   
 # Sidebar for the documentation pages
 sidebar:
   - identifier: social_header
