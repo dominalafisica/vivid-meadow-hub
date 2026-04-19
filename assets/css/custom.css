@@ -1,16 +1,24 @@
-/* Estilo del encabezado */
-.navbar-brand { font-size: 2.2rem !important; font-weight: 800 !important; }
+/* --- 1. ROMPER LA CAJA ESTRECHA DE HUGO --- */
+.article-style {
+  max-width: 1200px !important; /* Le da permiso de expandirse casi a toda la pantalla */
+  margin: 0 auto;
+}
 
-/* Contenedor de video y descripción */
+/* --- 2. DISEÑO DE LA CUADRÍCULA --- */
 .video-grid {
   display: grid;
-  grid-template-columns: 1.8fr 1fr; /* El video ocupa casi el 65% del ancho */
+  grid-template-columns: 2fr 1fr; /* El video toma el doble de espacio (66%) que el texto (33%) */
   gap: 3rem;
   align-items: start;
   margin: 3rem 0;
+  width: 100%; /* Asegura que llene el nuevo espacio ancho */
 }
 
-/* Forzar al reproductor a ser responsivo y verse nítido */
+/* --- 3. FORZAR AL REPRODUCTOR A CRECER --- */
+.video-grid > div {
+  width: 100%;
+}
+
 .video-grid iframe, 
 .video-grid .video-wrapper {
   width: 100% !important;
@@ -20,10 +28,10 @@
   border: none;
 }
 
-/* Ajuste para tablets y celulares: se apila verticalmente */
+/* --- 4. AJUSTE PARA CELULARES --- */
 @media (max-width: 1000px) {
   .video-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; /* Apila video y texto en pantallas pequeñas */
     gap: 1.5rem;
   }
 }
