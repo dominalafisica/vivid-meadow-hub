@@ -15,23 +15,23 @@ sections:
         <div class="expand-container">
         <div class="video-grid">
         <div>
-        {{< youtube dQw4w9WgXcQ >}}
+        {{< youtube PON_TU_ID_AQUÍ >}}
         </div>
         <div>
-        <h3 style="margin-top: 0;">The Bessel Differential Equation: Part I</h3>
+        <h3 style="margin-top: 0;">Legendre Differential Equation | Power Series</h3>
         <p><strong>Description:</strong><br>
-        <em>Analytical derivation of Bessel functions. This session focuses on the Frobenius method applied to second-order differential equations.</em></p>
+        <em>Step-by-step resolution of the Legendre differential equation using the power series method and the derivation of its recurrence relation.</em></p>
         <details>
-        <summary><span style="color:#3b82f6; cursor:pointer; font-weight:bold;">Read full description...</span></summary>
+        <summary><span style="color:#3b82f6; cursor:pointer; font-weight:bold;">Read full derivation details...</span></summary>
         <div style="margin-top: 10px; font-style: italic; font-size: 0.95rem;">
-        In this comprehensive lecture, we solve the Bessel equation step-by-step. We discuss the convergence of the power series and the physical implications of the Neumann function for integer orders.
+        We expand the series step-by-step, derive the general recurrence relation, and compute the initial coefficients to construct the general solution. Finally, we show that when $\lambda = n(n+1)$, one of the fundamental solutions elegantly reduces to the  Legendre polynomials.
         </div>
         </details>
         </div>
         </div>
         </div>
-
         <hr style="opacity: 0.1; margin: 4rem 0;">
+        ```
 
     design:
       spacing:
