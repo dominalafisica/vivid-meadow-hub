@@ -1,4 +1,3 @@
----
 title: "Mathematical Methods in Physics"
 type: landing
 
@@ -15,7 +14,7 @@ sections:
         <div class="expand-container">
         <div class="video-grid">
         <div class="video-wrapper">
-        <iframe src="https://www.youtube.com/embed/_aJzDUzmLt4" allowfullscreen></iframe>
+        <iframe src="[https://www.youtube.com/embed/_aJzDUzmLt4](https://www.youtube.com/embed/_aJzDUzmLt4)" allowfullscreen></iframe>
         </div>
         <div>
         <h3 style="margin-top: 0;">Legendre Differential Equation | Power Series</h3>
@@ -24,14 +23,14 @@ sections:
         <details>
         <summary><span style="color:#3b82f6; cursor:pointer; font-weight:bold;">Read full description...</span></summary>
         <div style="margin-top: 10px; font-style: italic; font-size: 0.95rem;">
-        We expand the series step-by-step, derive the general recurrence relation, and compute the initial coefficients to construct the general solution. Finally, we show that when $\lambda = n(n+1)$, one of the fundamental solutions elegantly reduces to the  Legendre polynomials.
+        We expand the series step-by-step, derive the general recurrence relation, and compute the initial coefficients to construct the general solution. Finally, we show that when $\lambda = n(n+1)$, one of the fundamental solutions elegantly reduces to the Legendre polynomials.
         </div>
         </details>
         </div>
         </div>
         </div>
+        
         <hr style="opacity: 0.1; margin: 4rem 0;">
-        ```
 
     design:
       spacing:
