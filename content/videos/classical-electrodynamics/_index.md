@@ -5,7 +5,7 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: "Electrodynamics"
+      title: "Classical Electrodynamics"
       subtitle: "Video derivations coming soon."
       text: |
         [⬅ Back to All Videos](/videos/)
