@@ -287,10 +287,5 @@ hugoblox:
     # Join affiliate program: https://hugoblox.com/affiliates
     affiliate_code: ""
 
-    footer:
- 
-  links:
-    - icon: paypal
-      icon_pack: fab
-      name: 'Support the project'
-      link: 'https://paypal.me/TuUsuario'
+  footer:
+  copyright: '[Support Domina la Física](https://paypal.me/TuUsuario)'
