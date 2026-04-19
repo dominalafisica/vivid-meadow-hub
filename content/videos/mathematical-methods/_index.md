@@ -13,23 +13,24 @@ sections:
         ---
 
         <div class="video-layout">
-          <div>
-            {{< youtube ID_DE_TU_VIDEO >}}
+          <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
           </div>
           <div>
-            <h3 style="margin-top: 0; margin-bottom: 0.5rem;">The Bessel Differential Equation: Part I</h3>
-            <p style="margin-bottom: 0.5rem;"><strong>Description:</strong><br>
+            <h3 style="margin-top: 0; margin-bottom: 0.75rem;">The Bessel Differential Equation: Part I</h3>
+            <p style="margin-bottom: 1rem;"><strong>Description:</strong><br>
             <em>This lecture covers the analytical treatment of the Bessel differential equation, focusing on the Frobenius method and boundary conditions.</em></p>
+            
             <details>
               <summary><span style="color:#1e3a8a; cursor:pointer; font-weight:bold;">Show more / Read full description...</span></summary>
-              <div style="margin-top: 10px; font-style: italic;">
+              <div style="margin-top: 15px; font-style: italic; line-height: 1.6;">
                 Here we dive deeper into the mathematical rigor. We solve the equation step-by-step to find the Bessel functions of the first kind ($J_n$) and discuss the Neumann function for integer orders. This derivation is essential for understanding cylindrical symmetry in electrodynamics.
               </div>
             </details>
           </div>
         </div>
 
-        <hr>
+        <hr style="margin: 3rem 0; opacity: 0.1;">
 
     design:
       spacing:
