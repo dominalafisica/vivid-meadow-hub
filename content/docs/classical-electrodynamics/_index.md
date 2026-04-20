@@ -18,7 +18,7 @@ sections:
             
             <div class="video-wrapper" style="position: relative; background-color: #111827; border: 1px solid #374151; border-radius: 8px; overflow: hidden; width: 100%; max-width: 320px; aspect-ratio: 1 / 1.414; margin: 0 auto; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.4); ">
                 
-                <img src="/images/thumbnails/preview-documento.png" alt="Preview" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.6; transition: opacity 0.2s;">
+                <img src="/docs/images/thumbnails/imagen" alt="Preview" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.6; transition: opacity 0.2s;">
 
                 <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; background: rgba(17, 24, 39, 0.5); padding: 1.5rem; text-align: center; color: white;">
                     <svg style="width: 56px; height: 56px; color: #ef4444; margin-bottom: 1.5rem; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.6));" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
