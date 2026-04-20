@@ -19,7 +19,7 @@ sections:
             <svg style="width: 64px; height: 64px; color: #ef4444; margin-bottom: 1.5rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
             </svg>
-            <a href="/docs/mathematical-methods/Bessel_Functions_Derivation.pdf" target="_blank" style="background-color: #3b82f6; color: white; padding: 0.7rem 1.5rem; border-radius: 5px; text-decoration: none; font-weight: bold; font-size: 0.9rem; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);">
+            <a href="/docs/mathematical-methods/Potencial y Campo Eléctrico de una Esfera Cargada mediante Armónicos Esféricos.pdf" target="_blank" style="background-color: #3b82f6; color: white; padding: 0.7rem 1.5rem; border-radius: 5px; text-decoration: none; font-weight: bold; font-size: 0.9rem; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);">
                 Download Technical Note (PDF)
             </a>
             <p style="margin-top: 1rem; font-size: 0.8rem; color: #9ca3af;">Size: ~1.2 MB | LaTeX Compiled</p>
