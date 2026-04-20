@@ -139,6 +139,27 @@ sections:
         </div>
         
         <hr style="opacity: 0.1; margin: 4rem 0;">
+
+        <div class="expand-container">
+        <div class="video-grid">
+        <div class="video-wrapper">
+        {{< youtube "yL1-ZVz94T4" >}}
+        </div>
+        <div>
+        <h3 style="margin-top: 0;">Electric Field of an Infinite Wire | Vector Method in Cylindrical Coordinates</h3>
+        <p><strong>Description:</strong><br>
+        <em>In this video, we determine the electric field produced by an infinite wire using a rigorous vector integration method.</em></p>
+        <details>
+        <summary><span style="color:#3b82f6; cursor:pointer; font-weight:bold;">Read full description...</span></summary>
+        <div style="margin-top: 10px; font-style: italic; font-size: 0.95rem;">
+        We calculate the electric field of a wire with uniform linear charge density $\lambda$ positioned along the z-axis. Rather than assuming symmetries outright, we let the vector calculus naturally reveal them. Formulating the position vectors in cylindrical coordinates, the integration leads to the cancellation of the z-component due to the parity of the function over a symmetric interval. The remaining radial component is solved via a trigonometric substitution, proving analytically that the field strictly points radially outward ($\hat{\rho}$) and exhibits cylindrical symmetry, which is the fundamental requisite for applying Gauss's Law.
+        </div>
+        </details>
+        </div>
+        </div>
+        </div>
+        
+        <hr style="opacity: 0.1; margin: 4rem 0;">
         
     design:
       spacing:
