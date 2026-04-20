@@ -22,9 +22,7 @@ sections:
             <a href="/docs/classical-electrodynamics/Potencial y Campo Eléctrico de una Esfera Cargada mediante Armónicos Esféricos.pdf" target="_blank" style="background-color: #3b82f6; color: white; padding: 0.7rem 1.5rem; border-radius: 5px; text-decoration: none; font-weight: bold; font-size: 0.9rem; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);">
                 Download Technical Note (PDF)
             </a>
-            <p style="margin-top: 1rem; font-size: 0.8rem; color: #9ca3af;">Size: ~1.2 MB | LaTeX Compiled</p>
         </div>
-
         <div>
         <h3 style="margin-top: 0;">[Título del Trabajo en Inglés]</h3>
         <p><strong>Abstract:</strong><br>
