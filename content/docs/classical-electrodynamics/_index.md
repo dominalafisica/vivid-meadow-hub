@@ -8,7 +8,7 @@ sections:
       title: "Classical Electrodynamics"
       subtitle: ""
       text: |
-        [⬅ Back to Video Lectures](/videos/)
+        [⬅ Back to Technical Notes](/docs/)
 
         ---
 
