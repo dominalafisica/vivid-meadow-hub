@@ -248,7 +248,7 @@ sections:
         <div class="expand-container">
         <div class="video-grid">
         <div class="video-wrapper">
-        {{< youtube "hWZ9eajle_A" >}}
+        {{< youtube "hWZ9eajIe_A" >}}
         </div>
         <div>
         <h3 style="margin-top: 0;">Magnetic Field of an Infinite Wire | Biot-Savart Law (Vector Analysis)</h3>
