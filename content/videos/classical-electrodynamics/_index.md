@@ -125,13 +125,13 @@ sections:
         {{< youtube "CZ12aSq7D9Q" >}}
         </div>
         <div>
-        <h3 style="margin-top: 0;">Electric Potential Inside an Infinite Cylinder | Laplace Equation (Exercise 1)</h3>
+        <h3 style="margin-top: 0;">Electric Potential Inside an Infinite Cylinder | Laplace Equation (Exercise 2)</h3>
         <p><strong>Description:</strong><br>
         <em>In this video, we determine the electrostatic potential inside an infinite cylinder by solving the Laplace equation via the method of separation of variables.</em></p>
         <details>
         <summary><span style="color:#3b82f6; cursor:pointer; font-weight:bold;">Read full description...</span></summary>
         <div style="margin-top: 10px; font-style: italic; font-size: 0.95rem;">
-        Because the cylinder is infinite, the system exhibits translational symmetry along the z-axis, simplifying the potential to $\Phi(\rho, \phi)$ and effectively reducing the 3D Laplace equation to a 2D problem in cylindrical coordinates. The interior is subject to the non-homogeneous Dirichlet boundary condition $\Phi(\rho_0, \phi) = \cos^2\phi$. The lecture covers the separation of variables method, solving the resulting radial and angular ordinary differential equations, and the application of boundary conditions via trigonometric expansion to determine the final series coefficients.
+        Because the cylinder is infinite, the system exhibits translational symmetry along the z-axis, simplifying the potential to $\Phi=\Phi(\rho, \phi)$ and effectively reducing the 3D Laplace equation to a 2D problem in cylindrical coordinates. The interior is subject to the non-homogeneous Dirichlet boundary condition $\Phi(\rho_0, \phi) = \cos^2\phi$. The lecture covers the separation of variables method, solving the resulting radial and angular ordinary differential equations, and the application of boundary conditions via trigonometric expansion to determine the final series coefficients.
         </div>
         </details>
         </div>
