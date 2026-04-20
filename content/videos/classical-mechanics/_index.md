@@ -72,6 +72,27 @@ sections:
         </div>
         
         <hr style="opacity: 0.1; margin: 4rem 0;">
+
+        <div class="expand-container">
+        <div class="video-grid">
+        <div class="video-wrapper">
+        {{< youtube "Z3d1fXkIpeU" >}}
+        </div>
+        <div>
+        <h3 style="margin-top: 0;">The General Double Pendulum | Lagrangian & Normal Modes</h3>
+        <p><strong>Description:</strong><br>
+        <em>A comprehensive, rigorous derivation of the double pendulum system, progressing from the general Lagrangian to the extraction of normal modes of vibration.</em></p>
+        <details>
+        <summary><span style="color:#3b82f6; cursor:pointer; font-weight:bold;">Read full description...</span></summary>
+        <div style="margin-top: 10px; font-style: italic; font-size: 0.95rem;">
+        In this extensive class, we tackle one of the most iconic coupled systems in Analytical Mechanics: the double pendulum. Unlike standard textbook treatments that immediately simplify to symmetric conditions, this lecture rigorously derives the equations of motion for the <em>general</em> case (arbitrary masses $m_1, m_2$ and lengths $l_1, l_2$) using the Lagrangian formulation. We then apply the small-angle approximation to linearize the coupled differential equations, setting up the eigenvalue problem to determine the normal frequencies and normal modes of vibration. Finally, we apply these generalized results to the symmetric case, providing a complete analytical picture of the system's oscillatory behavior.
+        </div>
+        </details>
+        </div>
+        </div>
+        </div>
+        
+        <hr style="opacity: 0.1; margin: 4rem 0;">
     design:
       spacing:
         padding: ['40px', '0', '80px', '0']
