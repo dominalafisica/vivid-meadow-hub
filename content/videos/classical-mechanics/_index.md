@@ -51,6 +51,27 @@ sections:
         </div>
         
         <hr style="opacity: 0.1; margin: 4rem 0;">
+
+        <div class="expand-container">
+        <div class="video-grid">
+        <div class="video-wrapper">
+        {{< youtube "WwNVBrkEJCQ" >}}
+        </div>
+        <div>
+        <h3 style="margin-top: 0;">Escape Velocity | Conservation of Energy</h3>
+        <p><strong>Description:</strong><br>
+        <em>A quick, intuitive derivation of the escape velocity formula using the conservation of mechanical energy.</em></p>
+        <details>
+        <summary><span style="color:#3b82f6; cursor:pointer; font-weight:bold;">Read full description...</span></summary>
+        <div style="margin-top: 10px; font-style: italic; font-size: 0.95rem;">
+        In this concise lecture, we derive the classic formula for escape speed ($v_e = \sqrt{2GM/R}$) by applying the principle of conservation of mechanical energy. To find the absolute minimum speed required, we intuitively set the final kinetic energy to zero at an infinite distance, noting that any excess energy would simply take the object to "infinity and beyond". We briefly show that the limit of the gravitational potential as distance approaches infinity is zero. The video concludes with a quick, interesting physical application: how a planet's escape speed determines its ability to retain an atmosphere and sustain life.
+        </div>
+        </details>
+        </div>
+        </div>
+        </div>
+        
+        <hr style="opacity: 0.1; margin: 4rem 0;">
     design:
       spacing:
         padding: ['40px', '0', '80px', '0']
