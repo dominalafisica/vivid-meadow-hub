@@ -41,11 +41,11 @@ sections:
         <div>
         <h3 style="margin-top: 0;">Bessel Differential Equation | General Solution & Neumann Function Derivation for Integer Order</h3>
         <p><strong>Description:</strong><br>
-        <em>In this video, the Bessel differential equation is developed step by step using the Frobenius method. The Neumann function (Bessel of the second kind) of integer order is also deduced in detail, </em></p>
+        <em>In this video, the Bessel differential equation is developed step by step using the Frobenius method. The Neumann function (Bessel of the second kind) of integer order is also deduced in detail,working the limit with L'Hôpital's rule and the singularities of the Gamma and Digamma functions.</em></p>
         <details>
         <summary><span style="color:#3b82f6; cursor:pointer; font-weight:bold;">Read full description...</span></summary>
         <div style="margin-top: 10px; font-style: italic; font-size: 0.95rem;">
-        working the limit with L'Hôpital's rule and the singularities of the Gamma and Digamma functions.
+        In this comprehensive 70-minute masterclass, we construct the complete general solution to Bessel's differential equation. The analysis begins by applying the Frobenius method around the regular singular point at $x=0$, establishing the indicial equation and the corresponding recurrence relations. We systematically explore the solutions for half-integer and non-integer orders ($\nu$) before tackling the highly complex degenerate case of integer order. For this scenario, where standard Frobenius solutions become linearly dependent, we rigorously derive the Neumann function (Bessel function of the second kind, $Y_\nu$) using L'Hôpital's rule. This advanced analytical derivation explicitly addresses the evaluation of limits involving the singularities of the Gamma and Digamma functions, incorporates harmonic sums and the Euler-Mascheroni constant, and ultimately establishes the universally valid true general solution.
         </div>
         </details>
         </div>
