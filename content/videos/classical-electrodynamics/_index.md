@@ -181,6 +181,27 @@ sections:
         </div>
         
         <hr style="opacity: 0.1; margin: 4rem 0;">
+
+        <div class="expand-container">
+        <div class="video-grid">
+        <div class="video-wrapper">
+        {{< youtube "EF-p58ziLt0" >}}
+        </div>
+        <div>
+        <h3 style="margin-top: 0;">Poisson's Equation | Step-by-Step Derivation</h3>
+        <p><strong>Description:</strong><br>
+        <em>A formal derivation of Poisson's equation from fundamental physical laws, bridging the integral and differential formulations of electrostatics.</em></p>
+        <details>
+        <summary><span style="color:#3b82f6; cursor:pointer; font-weight:bold;">Read full description...</span></summary>
+        <div style="margin-top: 10px; font-style: italic; font-size: 0.95rem;">
+        In this lecture, we deduce Poisson's equation by uniting two fundamental principles of electrostatics: the conservative nature of the electric field ($vec{\nabla} \times \vec{E} = vec{0}$, implying $\vec{E} = -vec{\nabla}\Phi$) and Gauss's Law. We explicitly demonstrate the mathematical transition from the integral form of Gauss's Law to its local differential form ($vec{\nabla} \cdot \vec{E} = \rho_v/\varepsilon_0$) using the Divergence Theorem. By combining these relations, we obtain Poisson's equation ($\nabla^2\Phi = -\rho_v/\varepsilon_0$). Finally, we examine how this expression simplifies into Laplace's equation ($\nabla^2\Phi = 0$) for regions completely devoid of free charge.
+        </div>
+        </details>
+        </div>
+        </div>
+        </div>
+        
+        <hr style="opacity: 0.1; margin: 4rem 0;">
         
     design:
       spacing:
