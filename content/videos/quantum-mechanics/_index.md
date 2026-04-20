@@ -31,6 +31,27 @@ sections:
         
         <hr style="opacity: 0.1; margin: 4rem 0;">
 
+        <div class="expand-container">
+        <div class="video-grid">
+        <div class="video-wrapper">
+        {{< youtube "YDnn3l42jjU" >}}
+        </div>
+        <div>
+        <h3 style="margin-top: 0;">Hermitian Operators: Eigenvalues & Eigenvectors | Fundamental Properties</h3>
+        <p><strong>Description:</strong><br>
+        <em>A clear, step-by-step mathematical proof of two fundamental theorems of Hermitian operators: real eigenvalues and orthogonal eigenvectors.</em></p>
+        <details>
+        <summary><span style="color:#3b82f6; cursor:pointer; font-weight:bold;">Read full description...</span></summary>
+        <div style="margin-top: 10px; font-style: italic; font-size: 0.95rem;">
+        In this lecture, we explore the mathematical foundations of quantum observables by rigorously proving the essential properties of Hermitian operators. Using Dirac bra-ket notation, we demonstrate that the eigenvalues of a Hermitian operator are strictly real, a mathematical necessity ensuring that physical observables yield real measurement values. Subsequently, we prove that eigenvectors corresponding to distinct eigenvalues are mutually orthogonal, forming the basis for the state space. This video serves as an excellent pedagogical bridge for students familiarizing themselves with abstract operator algebra and its direct physical implications in Quantum Mechanics.
+        </div>
+        </details>
+        </div>
+        </div>
+</div>
+
+<hr style="opacity: 0.1; margin: 4rem 0;">
+
     design:
       spacing:
         padding: ['40px', '0', '80px', '0']
