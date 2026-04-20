@@ -114,6 +114,28 @@ sections:
         </div>
         
         <hr style="opacity: 0.1; margin: 4rem 0;">
+
+        <div class="expand-container">
+        <div class="video-grid">
+        <div class="video-wrapper">
+        {{< youtube "8O5o263n6EM" >}}
+        </div>
+        <div>
+        <h3 style="margin-top: 0;">Suspended Charges in Static Equilibrium | Transcendental Equation & Maclaurin Series</h3>
+        <p><strong>Description:</strong><br>
+        <em>A rigorous vector analysis of suspended charged particles, culminating in the analytical resolution of a transcendental equilibrium equation using small-angle approximations.</em></p>
+        <details>
+        <summary><span style="color:#3b82f6; cursor:pointer; font-weight:bold;">Read full description...</span></summary>
+        <div style="margin-top: 10px; font-style: italic; font-size: 0.95rem;">
+        In this lecture, we tackle a classic electrostatics problem: determining the equilibrium angle of two identical charged spheres suspended by strings. We begin with a rigorous free-body diagram and a vector application of Newton's Second Law, balancing tension, gravity, and the electrostatic Coulomb force. This analysis yields a nonlinear transcendental equation for the equilibrium angle $\theta$. To resolve this analytically, we justify the small-angle approximation by formally expanding the sine and cosine functions via their Maclaurin series. This mathematical technique reduces the complex system into a solvable algebraic equation, ultimately deriving the closed-form approximate solution for the system's configuration.
+        </div>
+        </details>
+        </div>
+        </div>
+        </div>
+        
+        <hr style="opacity: 0.1; margin: 4rem 0;">
+    
     design:
       spacing:
         padding: ['40px', '0', '80px', '0']
