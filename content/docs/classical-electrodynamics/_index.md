@@ -44,6 +44,8 @@ sections:
         <hr style="opacity: 0.1; margin: 4rem 0;">
 
     design:
-          spacing:
-            padding: ['40px', '0', '80px', '0']
-    ---
+      spacing:
+        padding: ['40px', '0', '80px', '0']
+---
+
+  
