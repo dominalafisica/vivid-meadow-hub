@@ -83,11 +83,11 @@ sections:
         <div>
         <h3 style="margin-top: 0;">Electric Potential Outside a Sphere | Laplace Equation (Exercise 1)</h3>
         <p><strong>Description:</strong><br>
-        <em>In this video we find the electrostatic potential via the Laplace equation, solving it by the method of separation of variables.</em></p>
+        <em>In this video, we determine the electrostatic potential via the Laplace equation, solving it by the method of separation of variables.</em></p>
         <details>
         <summary><span style="color:#3b82f6; cursor:pointer; font-weight:bold;">Read full description...</span></summary>
         <div style="margin-top: 10px; font-style: italic; font-size: 0.95rem;">
-        We argue that the system presents azimuthal symmetry so the potential is $\Phi=\Phi(r, \theta)$. The potential is subject to the non-linear boundary condition $\Phi(r_0, \theta) = \sin^2 \theta$. By exploiting azimuthal symmetry, we reduce the 3D Laplace equation to a manageable set of ordinary differential equations. The lecture covers the separation of variables method, the derivation of the Legendre and Cauchy-Euler equations, and the application of boundary conditions via polynomial expansion.<br><br>
+        Since the system exhibits azimuthal symmetry, the potential reduces to $\Phi=\Phi(r, \theta)$, allowing the 3D Laplace equation to be simplified into a set of ordinary differential equations. The system is subject to the non-homogeneous Dirichlet boundary condition $\Phi(R_0, \theta) = \sin^2 \theta$. The lecture covers the separation of variables method, the derivation of the Legendre and Cauchy-Euler equations, and the application of boundary conditions via polynomial expansion.<br><br>
         <strong>Technical Note / Errata:</strong> Please note that in the equations shown at 11:01 and 11:05, a $+$ sign is missing between the terms. Ensure you include it when following the derivation in your notes.
         </div>
         </details>
