@@ -152,7 +152,7 @@ sections:
         <details>
         <summary><span style="color:#3b82f6; cursor:pointer; font-weight:bold;">Read full description...</span></summary>
         <div style="margin-top: 10px; font-style: italic; font-size: 0.95rem;">
-        We calculate the electric field of a wire with uniform linear charge density $\lambda$ positioned along the z-axis. Rather than assuming symmetries outright, we let the vector calculus naturally reveal them. Formulating the position vectors in cylindrical coordinates, the integration leads to the cancellation of the z-component due to the parity of the function over a symmetric interval. The remaining radial component is solved via a trigonometric substitution, proving analytically that the field strictly points radially outward $\hat{e_\rho}$ and exhibits cylindrical symmetry, which is the fundamental requisite for applying Gauss's Law.
+        We calculate the electric field of a wire with uniform linear charge density $\lambda$ positioned along the z-axis. Rather than assuming symmetries outright, we let the vector calculus naturally reveal them. Formulating the position vectors in cylindrical coordinates, the integration leads to the cancellation of the z-component due to the parity of the function over a symmetric interval. The remaining radial component is solved via a trigonometric substitution, proving analytically that the field strictly points radially outward ($\hat{e_\rho}$) and exhibits cylindrical symmetry, which is the fundamental requisite for applying Gauss's Law.
         </div>
         </details>
         </div>
