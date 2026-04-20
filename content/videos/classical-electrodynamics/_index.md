@@ -209,7 +209,7 @@ sections:
         {{< youtube "xwULfUgs_C0" >}}
         </div>
         <div>
-        <h3 style="margin-top: 0;">Conservation of Electric Charge | Continuity Equation</h3>
+        <h3 style="margin-top: 0;">Continuity Equation from Maxwell's Equations | Charge Conservation</h3>
         <p><strong>Description:</strong><br>
         <em>An intuitive physical explanation and a formal step-by-step derivation of the continuity equation directly from Maxwell's equations.</em></p>
         <details>
