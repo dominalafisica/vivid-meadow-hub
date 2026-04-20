@@ -76,7 +76,7 @@ sections:
         <div class="expand-container">
         <div class="video-grid">
         <div class="video-wrapper">
-        {{< youtube "Z3d1fXkIpeU" >}}
+        {{< youtube "Z3d1fXklpeU" >}}
         </div>
         <div>
         <h3 style="margin-top: 0;">The General Double Pendulum | Lagrangian & Normal Modes</h3>
