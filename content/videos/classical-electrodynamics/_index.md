@@ -178,9 +178,9 @@ sections:
         </details>
         </div>
         </div>
-</div>
-
-<hr style="opacity: 0.1; margin: 4rem 0;">
+        </div>
+        
+        <hr style="opacity: 0.1; margin: 4rem 0;">
         
     design:
       spacing:
