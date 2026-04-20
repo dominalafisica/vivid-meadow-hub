@@ -223,6 +223,27 @@ sections:
         </div>
         
         <hr style="opacity: 0.1; margin: 4rem 0;">
+
+        <div class="expand-container">
+        <div class="video-grid">
+        <div class="video-wrapper">
+        {{< youtube "Zi8ldo0NJxg" >}}
+        </div>
+        <div>
+        <h3 style="margin-top: 0;">Electric Force Between Charged Wires | Continuous Test Charge Distributions</h3>
+        <p><strong>Description:</strong><br>
+        <em>An approach to calculating the electric force exerted on a continuous test charge distribution, moving beyond standard point-charge problems.</em></p>
+        <details>
+        <summary><span style="color:#3b82f6; cursor:pointer; font-weight:bold;">Read full description...</span></summary>
+        <div style="margin-top: 10px; font-style: italic; font-size: 0.95rem;">
+        In standard electrostatics problems, the electric force is typically calculated acting upon a simple point-like test charge. In this lecture, we elevate the complexity by analyzing the force exerted on a <em>continuous</em> charge distribution—specifically, a finite wire interacting with the field of a parallel infinite wire. We discuss the physical setup and mathematically transition from the discrete force equation to a continuous vector integral ($d\vec{F} = \vec{E} dq$). We explicitly demonstrate how to set up the limits and evaluate the integral over the geometry of the finite test wire, concluding with a practical application of the derived analytical formula.
+        </div>
+        </details>
+        </div>
+        </div>
+        </div>
+        
+        <hr style="opacity: 0.1; margin: 4rem 0;">
         
     design:
       spacing:
