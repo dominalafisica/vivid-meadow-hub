@@ -96,6 +96,28 @@ sections:
         </div>
         
         <hr style="opacity: 0.1; margin: 4rem 0;">
+
+        <div class="expand-container">
+        <div class="video-grid">
+        <div class="video-wrapper">
+        {{< youtube "9eVDRWVMPyU" >}}
+        </div>
+        <div>
+        <h3 style="margin-top: 0;">Every Electrostatic Field is Conservative | Derived from Coulomb's Law</h3>
+        <p><strong>Description:</strong><br>
+        <em>A rigorous derivation proving why the electrostatic field is conservative, transitioning from point charges to the Poisson equation.</em></p>
+        <details>
+        <summary><span style="color:#3b82f6; cursor:pointer; font-weight:bold;">Read full description...</span></summary>
+        <div style="margin-top: 10px; font-style: italic; font-size: 0.95rem;">
+        In this lecture, we establish the foundations of electrostatics by starting with Coulomb's experimental law and formally defining the electric field. We generalize the field for continuous charge distributions (linear, surface, and volume) to set up a robust mathematical framework. Using vector calculus, specifically by analyzing the curl of the generalized electric field ($\nabla \times \vec{E}$), we mathematically prove that every electrostatic field is conservative. This proof justifies the existence of the scalar electric potential ($\Phi$) and naturally leads to the derivation of the Poisson equation, marking the historical shift from thinking in terms of forces to thinking in terms of potentials.<br><br>
+        <strong>Technical Note:</strong> In the field integral expressions shown around 10:00, the $4\pi$ factor was unintentionally omitted. However, it's worth noting that these specific expressions are entirely correct when working in Gaussian units (CGS), a system widely preferred by theoretical physicists.
+        </div>
+        </details>
+        </div>
+        </div>
+        </div>
+        
+        <hr style="opacity: 0.1; margin: 4rem 0;">
         
     design:
       spacing:
