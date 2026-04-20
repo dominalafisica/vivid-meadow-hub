@@ -20,7 +20,7 @@ sections:
                 <svg style="width: 56px; height: 56px; color: #ef4444; margin-bottom: 1.5rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
                 </svg>
-                <a href="/docs/classical-electrodynamics/Potencial_Campo_Esfera_Armonicos.pdf" target="_blank" style="background-color: #3b82f6; color: white; padding: 0.8rem 1.6rem; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 0.9rem; box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);">Download Technical Note (PDF)</a>
+                <a href="/docs/classical-electrodynamics/Potencial_Campo_Esfera_Armonicos.pdf" target="_blank" style="background-color: #3b82f6; color: white; padding: 0.8rem 1.6rem; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 0.9rem; box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);">Download Technical Note</a>
                 <p style="margin-top: 1.2rem; font-size: 0.9rem; color: #ffffff; font-weight: 500;">Size: 1.2 MB</p>
               </div>
             </div>
