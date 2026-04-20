@@ -7,19 +7,19 @@ sections:
     content:
       title: "Note Topics"
       text: |
-        ### [Mathematical Methods in Physics](/videos/mathematical-methods/)
+        ### [Mathematical Methods in Physics](/docs/mathematical-methods/)
         Differential equations, special functions, and analytical tools.
         <br>
 
-        ### [Classical Electrodynamics](/videos/classical-electrodynamics/)
+        ### [Classical Electrodynamics](/docs/classical-electrodynamics/)
         Field and potential problems via vector integration and special functions, boundary-value problems with PDEs, multipole expansions, and Maxwell's equations.
         <br>
     
-        ### [Classical Mechanics](/videos/classical-mechanics/)
+        ### [Classical Mechanics](/docs/classical-mechanics/)
         Newtonian, Lagrangian, and Hamiltonian formulations, as well as central forces and rigid body dynamics.
         <br>
 
-        ### [Quantum Mechanics](/videos/quantum-mechanics/)
+        ### [Quantum Mechanics](/docs/quantum-mechanics/)
         Wave mechanics, formalism, and advanced quantum systems.
        
     design:
