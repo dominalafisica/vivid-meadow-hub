@@ -87,7 +87,7 @@ sections:
         <details>
         <summary><span style="color:#3b82f6; cursor:pointer; font-weight:bold;">Read full description...</span></summary>
         <div style="margin-top: 10px; font-style: italic; font-size: 0.95rem;">
-        Since the system exhibits azimuthal symmetry, the potential reduces to $\Phi=\Phi(r, \theta)$, allowing the 3D Laplace equation to be simplified into a set of ordinary differential equations. The system is subject to the non-homogeneous Dirichlet boundary condition $\Phi(R_0, \theta) = \sin^2 \theta$. The lecture covers the separation of variables method, the derivation of the Legendre and Cauchy-Euler equations, and the application of boundary conditions via polynomial expansion.<br><br>
+        Since the system exhibits azimuthal symmetry, the potential reduces to $\Phi=\Phi(r, \theta)$, effectively reducing the 3D Laplace equation to a 2D problem. The system is subject to the non-homogeneous Dirichlet boundary condition $\Phi(r_0, \theta) = \sin^2 \theta$. The lecture covers the separation of variables method, the derivation of the Legendre and Cauchy-Euler equations, and the application of boundary conditions via polynomial expansion.<br><br>
         <strong>Technical Note / Errata:</strong> Please note that in the equations shown at 11:01 and 11:05, a $+$ sign is missing between the terms. Ensure you include it when following the derivation in your notes.
         </div>
         </details>
@@ -109,7 +109,7 @@ sections:
         <details>
         <summary><span style="color:#3b82f6; cursor:pointer; font-weight:bold;">Read full description...</span></summary>
         <div style="margin-top: 10px; font-style: italic; font-size: 0.95rem;">
-        In this lecture, we establish the foundations of electrostatics by starting with Coulomb's experimental law and formally defining the electric field. We generalize the field for continuous charge distributions (linear, surface, and volume) to set up a robust mathematical framework. Using vector calculus, specifically by analyzing the curl of the generalized electric field ($\nabla \times \vec{E}$), we mathematically prove that every electrostatic field is conservative. This proof justifies the existence of the scalar electric potential ($\Phi$) and naturally leads to the derivation of the Poisson equation, marking the historical shift from thinking in terms of forces to thinking in terms of potentials.<br><br>
+        In this lecture, we establish the foundations of electrostatics by starting with Coulomb's experimental law and formally defining the electric field. We generalize the field for continuous charge distributions (linear, surface, and volume) to set up a robust mathematical framework. Using vector calculus, specifically by analyzing the curl of the generalized electric field ($\vec{nabla} \times \vec{E}$), we mathematically prove that every electrostatic field is conservative. This proof justifies the existence of the scalar electric potential ($\Phi$) and naturally leads to the derivation of the Poisson equation, marking the historical shift from thinking in terms of forces to thinking in terms of potentials.<br><br>
         <strong>Technical Note:</strong> In the field integral expressions shown around 10:00, the $4\pi$ factor was unintentionally omitted. However, it's worth noting that these specific expressions are entirely correct when working in Gaussian units (CGS), a system widely preferred by theoretical physicists.
         </div>
         </details>
