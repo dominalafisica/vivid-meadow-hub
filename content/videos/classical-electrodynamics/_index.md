@@ -206,7 +206,7 @@ sections:
         <div class="expand-container">
         <div class="video-grid">
         <div class="video-wrapper">
-        {{< youtube "xwULFugs_C0" >}}
+        {{< youtube "xwULfUgs_C0" >}}
         </div>
         <div>
         <h3 style="margin-top: 0;">Conservation of Electric Charge | Continuity Equation</h3>
@@ -215,7 +215,7 @@ sections:
         <details>
         <summary><span style="color:#3b82f6; cursor:pointer; font-weight:bold;">Read full description...</span></summary>
         <div style="margin-top: 10px; font-style: italic; font-size: 0.95rem;">
-        In this video, we explore the fundamental principle of the conservation of electric charge, mathematically encapsulated by the continuity equation ($vec{\nabla} \cdot \vec{J} + \frac{\partial \rho_v}{\partial t} = 0$). The lecture begins by building an intuitive, visual understanding of how current density relates to the time evolution of charge distribution. Then, we perform a rigorous, step-by-step mathematical derivation starting from Maxwell's equations, demonstrating how the core laws of electrodynamics inherently demand the absolute conservation of charge.
+        In this video, we explore the fundamental principle of the conservation of electric charge, mathematically encapsulated by the continuity equation ($\vec{\nabla} \cdot \vec{J} + \frac{\partial \rho_v}{\partial t} = 0$). The lecture begins by building an intuitive, visual understanding of how current density relates to the time evolution of charge distribution. Then, we perform a step-by-step mathematical derivation starting from Maxwell's equations, demonstrating how the core laws of electrodynamics inherently demand the absolute conservation of charge.
         </div>
         </details>
         </div>
