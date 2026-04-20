@@ -5,7 +5,7 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: "Technical Notes: Classical Electrodynamics"
+      title: "Classical Electrodynamics"
       subtitle: ""
       text: |
         <div class="expand-container" style="padding: 2rem 0; color: #f3f4f6;">
