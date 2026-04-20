@@ -30,6 +30,27 @@ sections:
         </div>
         
         <hr style="opacity: 0.1; margin: 4rem 0;">
+
+        <div class="expand-container">
+        <div class="video-grid">
+        <div class="video-wrapper">
+        {{< youtube "gjPqvL2nq2I" >}}
+        </div>
+        <div>
+        <h3 style="margin-top: 0;">Kepler's Second Law | Lagrangian Mechanics & Angular Momentum</h3>
+        <p><strong>Description:</strong><br>
+        <em>A clear derivation of Kepler's Law of Areas, demonstrating how a central potential leads to the conservation of angular momentum.</em></p>
+        <details>
+        <summary><span style="color:#3b82f6; cursor:pointer; font-weight:bold;">Read full description...</span></summary>
+        <div style="margin-top: 10px; font-style: italic; font-size: 0.95rem;">
+        In this lecture, we derive Kepler's Second Law using the Lagrangian formulation. By evaluating the Euler-Lagrange equation for the angular degree of freedom, we prove that because the gravitational potential is purely central, the time derivative of the generalized momentum is zero, strictly enforcing the conservation of angular momentum. We then employ a differential geometric argument modeling the swept area as a differential triangle to evaluate the areal velocity ($dA/dt$). The derivation concludes by explaining the fundamental physical consequence of this law: to maintain a constant areal velocity, a planet must travel faster when closer to the Sun and slower when further away.
+        </div>
+        </details>
+        </div>
+        </div>
+        </div>
+        
+        <hr style="opacity: 0.1; margin: 4rem 0;">
     design:
       spacing:
         padding: ['40px', '0', '80px', '0']
