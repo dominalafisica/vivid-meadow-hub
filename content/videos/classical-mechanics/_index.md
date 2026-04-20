@@ -93,6 +93,27 @@ sections:
         </div>
         
         <hr style="opacity: 0.1; margin: 4rem 0;">
+
+        <div class="expand-container">
+        <div class="video-grid">
+        <div class="video-wrapper">
+        {{< youtube "E59RoG1t7og" >}}
+        </div>
+        <div>
+        <h3 style="margin-top: 0;">1D Wave Equation: Non-Trivial Initial Displacement | PDE Superposition Principle</h3>
+        <p><strong>Description:</strong><br>
+        <em>A rigorous analytical solution to the 1D wave equation for a vibrating string, from boundary conditions to the exact series solution using orthogonality.</em></p>
+        <details>
+        <summary><span style="color:#3b82f6; cursor:pointer; font-weight:bold;">Read full description...</span></summary>
+        <div style="margin-top: 10px; font-style: italic; font-size: 0.95rem;">
+        In this comprehensive lecture, we solve the classic boundary value problem of a vibrating string with fixed ends, released from rest with a specific piecewise initial displacement. The methodology rigorously follows the technique of separation of variables to decompose the 1D wave equation into spatial and temporal ordinary differential equations. After applying the Dirichlet boundary conditions, we invoke the superposition principle to construct the general series solution. Finally, we determine the specific expansion coefficients by exploiting the orthogonality of the eigenfunctions, analytically integrating over the piecewise initial configuration to arrive at the exact solution.
+        </div>
+        </details>
+        </div>
+        </div>
+        </div>
+        
+        <hr style="opacity: 0.1; margin: 4rem 0;">
     design:
       spacing:
         padding: ['40px', '0', '80px', '0']
