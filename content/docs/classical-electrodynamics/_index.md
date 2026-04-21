@@ -5,7 +5,7 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: "Technical Notes: Classical Electrodynamics"
+      title: "Classical Electrodynamics"
       subtitle: ""
       text: |
         <div class="expand-container" style="padding: 2rem 0; color: #f3f4f6;">
@@ -16,7 +16,7 @@ sections:
 
         <div class="video-grid" style="align-items: center; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem;">
         
-        <div style="position: relative; background-color: #111827; border: 1px solid #374151; border-radius: 8px; overflow: hidden; width: 100%; max-width: 320px; aspect-ratio: 1 / 1.414; margin: 0 auto; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.4);">
+        <div style="position: relative; background-color: #111827; border: 1px solid #374151; border-radius: 8px; overflow: hidden; width: 100%; max-width: 320px; aspect-ratio: 8.5 / 11; margin: 0 auto; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.4);">
         <img src="/docs/classical-electrodynamics/images/Captura_pantalla.png" alt="Preview" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; object-position: top; opacity: 0.6; display: block;">
         <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; background: rgba(17, 24, 39, 0.5); padding: 1.5rem; text-align: center; color: white;">
         <svg style="width: 56px; height: 56px; color: #ef4444; margin-bottom: 1.5rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
