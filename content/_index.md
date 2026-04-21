@@ -30,7 +30,7 @@ sections:
       title: "About the Project"
       items:
         - name: "Rigorous Derivations"
-          description: "Focus on formal mathematical proofs and analytical methods."
+          description: "Focus on mathematical proofs and analytical methods."
           icon: book-open
         - name: "Problem Solving"
           description: "Step-by-step solutions to complex physical problems."
@@ -46,13 +46,14 @@ sections:
   - block: markdown
     content:
       title: "Featured Physics Topics"
-      subtitle: "Explore our in-depth analytical guides."
+      subtitle: ""
       text: |
-        We are currently developing comprehensive notes for advanced undergraduate and graduate physics. New content is added weekly.
+        Currently developing comprehensive notes for undergraduate and graduate physics.
 
-        - **Mathematical Methods:** Analytical tools and complete derivations, including the Bessel differential equation.
-        - **Electrodynamics (Upcoming):** Boundary value problems and Maxwell's equations.
-        - **Quantum Mechanics (Upcoming):** Advanced formalisms and many-body physics.
+        - **Mathematical Methods:**Differential equations, special functions, vector analysis, and analytical tools..
+        - **Classical Electrodynamics :** Field and potential problems, boundary-value problems, multipole expansions, and Maxwell's equations.
+        - **Classical Mechanics:** Newtonian, Lagrangian, and Hamiltonian formulations, as well as rigid body dynamics.
+        - **Quantum Mechanics (Upcoming):** Wave mechanics, formalism, and advanced quantum systems.
     design:
       spacing:
         padding: ['80px', '0', '80px', '0']
