@@ -8,7 +8,7 @@ sections:
       title: "Note Topics"
       text: |
         ### [Mathematical Methods in Physics](/docs/mathematical-methods/)
-        Differential equations, special functions, and analytical tools.
+        Differential equations, special functions, vector analysis, and analytical tools.
         <br>
 
         ### [Classical Electrodynamics](/docs/classical-electrodynamics/)
