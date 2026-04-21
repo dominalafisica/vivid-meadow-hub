@@ -5,13 +5,13 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: "Technical Notes: Classical Electrodynamics"
+      title: "Classical Electrodynamics"
       subtitle: ""
       text: |
         <div class="expand-container" style="padding: 2rem 0; color: #f3f4f6;">
         
         <div style="margin-bottom: 2rem; border-bottom: 1px solid #374151; padding-bottom: 1rem;">
-        <a href="/docs/" style="text-decoration: none; color: #3b82f6; font-weight: 600; font-size: 1.1rem;">[⬅ Back to Technical Notes Index]</a>
+        <a href="/docs/" style="text-decoration: none; color: #3b82f6; font-weight: 600; font-size: 1.1rem;">⬅ Back to Technical Notes Index</a>
         </div>
         <div class="video-grid" style="align-items: center; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem;">
         <div style="position: relative; background-color: #111827; border: 1px solid #374151; border-radius: 8px; overflow: hidden; width: 100%; max-width: 320px; aspect-ratio: 8.5 / 11; margin: 0 auto; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.4);">
