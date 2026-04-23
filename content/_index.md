@@ -30,7 +30,7 @@ sections:
       title: "About the Project"
       items:
         - name: "Rigorous Derivations"
-          description: "Focus on mathematical proofs and analytical methods."
+          description: "Mathematical proofs and analytical methods."
           icon: book-open
         - name: "Problem Solving"
           description: "Step-by-step solutions to complex physical problems."
@@ -48,10 +48,10 @@ sections:
       title: "Featured Physics Topics"
       subtitle: ""
       text: |
-        Currently developing comprehensive notes for undergraduate and graduate physics.
+        Comprehensive notes for undergraduate and graduate physics.
 
         - **Mathematical Methods:** Differential equations, special functions, vector analysis, and analytical tools..
-        - **Classical Electrodynamics :** Field and potential problems, boundary-value problems, multipole expansions, and Maxwell's equations.
+        - **Classical Electrodynamics:** Field and potential problems, boundary-value problems, multipole expansions, and Maxwell's equations.
         - **Classical Mechanics:** Newtonian, Lagrangian, and Hamiltonian formulations, as well as rigid body dynamics.
         - **Quantum Mechanics:** Wave mechanics, formalism, and advanced quantum systems.
     design:
