@@ -106,15 +106,6 @@ hugoblox:
       share_alike: true
       allow_commercial: false
       
-  copyright:
-    notice: >-
-      <span>© 2026 Domina la Física · Licensed under {license}
-    license:
-      enable: true
-      type: cc
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
     title: ""
     location:
       address:
