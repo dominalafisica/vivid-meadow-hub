@@ -78,7 +78,7 @@ hugoblox:
   footer:
     style: minimal
     text: |
-      <div style="display: flex; flex-direction: column; align-items: center; gap: 18px; margin-bottom: 30px;">
+      <div style="display: flex; flex-direction: column; align-items: center; gap: 14px; margin-bottom: 30px;">
         
         <a href="https://orcid.org/0000-0000-0000-0000" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 12px; font-size: 1.1rem; color: #a6ce39; text-decoration: none; font-weight: 500; transition: filter 0.2s;" onmouseover="this.style.filter='brightness(1.2)'" onmouseout="this.style.filter='brightness(1)'">
           <svg viewBox="0 0 256 256" style="width: 34px; height: 34px;">
@@ -88,9 +88,9 @@ hugoblox:
           Verified ORCID Profile
         </a>
 
-        <a href="https://paypal.me/dominalafisica" target="_blank" rel="noopener" style="display: flex; align-items: center; gap: 10px; font-size: 0.9rem; color: #a3a3a3; text-decoration: none; transition: 0.2s;" onmouseover="this.style.color='#ffffff'" onmouseout="this.style.color='#a3a3a3'">
-          <span style="background: white; display: flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 6px; padding: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.15);">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b7/PayPal_Logo_Icon_2014.svg" alt="PayPal" style="width: 18px; height: 18px; display: block;">
+        <a href="https://paypal.me/dominalafisica" target="_blank" rel="noopener" style="display: flex; align-items: center; gap: 8px; font-size: 0.85rem; color: #888888; text-decoration: none; transition: 0.2s;" onmouseover="this.style.color='#ffffff'" onmouseout="this.style.color='#888888'">
+          <span style="background: white; display: flex; align-items: center; justify-content: center; width: 20px; height: 20px; border-radius: 4px; padding: 2px; box-shadow: 0 1px 3px rgba(0,0,0,0.15);">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b7/PayPal_Logo_Icon_2014.svg" alt="PayPal" style="width: 14px; height: 14px; display: block;">
           </span>
           Support the Project | PayPal: @dominalafisica
         </a>
