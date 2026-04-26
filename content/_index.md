@@ -51,7 +51,7 @@ sections:
         Comprehensive notes for undergraduate and graduate physics.
 
         - **Mathematical Methods:** Differential equations, special functions, vector analysis, and analytical tools.
-        - **Classical Electrodynamics:** Field and potential problems, boundary-value problems, multipole expansions, and Maxwell's equations.
+        - **Classical Electrodynamics:** Field and potential problems, multipole expansions, boundary-value problems, and Maxwell's equations.
         - **Classical Mechanics:** Newtonian, Lagrangian, and Hamiltonian formulations, as well as rigid body dynamics.
         - **Quantum Mechanics:** Wave mechanics, formalism, and advanced quantum systems.
     design:
