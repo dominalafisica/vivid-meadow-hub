@@ -8,7 +8,7 @@ sections:
       title: "Lecture Topics"
       text: |
         ### [Mathematical Methods in Physics](/videos/mathematical-methods/)
-        Differential equations, special functions, and analytical tools.
+        Differential equations, vector analysis, special functions, and analytical tools.
         <br>
 
         ### [Classical Electrodynamics](/videos/classical-electrodynamics/)
